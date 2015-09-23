@@ -1,0 +1,544 @@
+        <meta name="description" content="News und Foren zu Computer, IT, Wissenschaft, Medien und Politik. Preisvergleich von Hardware und Software sowie Downloads bei Heise Medien.">
+<link rel="alternate" media="only screen and (max-width: 640px)" href="//m.heise.de/" id="mobil_variante" />
+<link rel="copyright" title="Copyright" href="/impressum.html" />    
+    <meta name="twitter:domain"        content="heise.de" />
+    <meta property="og:url"            content="http://www.heise.de/" />
+    <meta property="og:image"          content="http://www.heise.de/icons/ho/heise_online_facebook_social_graph.png" />
+<meta name="generator" content="InterRed V15.4.4, http://www.interred.de/, InterRed GmbH" />
+<script type="text/javascript" src="/js/mobile-deflect.min.js"></script>
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime();</script>
+<script type="text/javascript" src="/js/jquery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/js/plugins/jquery-ui-1.8.18_cycle.custom.min.js"></script>
+<script type="text/javascript" src="/js/plugins/jquery.equalheights.min.js"></script>
+<script type="text/javascript" src="/support/lib/teaser_linking.js"></script>
+<script type="text/javascript" src="/js/ho/link_inline_images.min.js"></script>
+<script type="text/javascript" src="//script.ioam.de/iam.js"></script>
+<script type="text/javascript" src="//ad.yieldlab.net/yp/66424,66430,66442,66444,66446?ts=20150821092941"></script>
+<link href="/stil/standard2008.css?457d46a2e90e6e0323e2" rel="stylesheet" type="text/css">
+<link href="/stil/drucken.css?fead9096de1c0d0ca94e" rel="stylesheet" type="text/css" media="print">
+<link href="/stil/heise.css?c342ab97ebe013cc8f0e" rel="stylesheet" type="text/css">
+    <link href="/favicon.ico" rel="icon">
+    <link rel="author" title="Kontakt" href="mailto:kontakt%40heise.de?subject=heise%20online">
+    <link rel="search" title="Suche" href="http://www.heise.de/suche/">
+    <link rel="alternate" type="application/atom+xml" title="Aktuelle News von heise online" href="http://www.heise.de/newsticker/heise-atom.xml">
+    <link rel="alternate" type="application/rss+xml" title="Aktuelle News von heise online (für ältere RSS-Reader)" href="http://www.heise.de/newsticker/heise.rdf">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/ho/apple-touch-icon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/ho/apple-touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/ho/apple-touch-icon-76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/icons/ho/apple-touch-icon-152.png">
+    <meta name="msapplication-starturl" content="http://www.heise.de/">
+    <meta name="msapplication-square70x70logo" content="http://www.heise.de/icons/ho/windows_tiny.png">
+    <meta name="msapplication-square150x150logo" content="http://www.heise.de/icons/ho/windows_square.png">
+    <meta name="msapplication-wide310x150logo" content="http://www.heise.de/icons/ho/windows_wide.png">
+    <meta name="msapplication-square310x310logo" content="http://www.heise.de/icons/ho/windows_large.png">
+    <meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=http://www.heise.de/newsticker/heise-atom.xml&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=http://www.heise.de/newsticker/heise-atom.xml&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=http://www.heise.de/newsticker/heise-atom.xml&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=http://www.heise.de/newsticker/heise-atom.xml&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=http://www.heise.de/newsticker/heise-atom.xml&amp;id=5; cycle=1">
+    <meta name="DC.creator" content="heise online">
+    <link rel="publisher" href="https://plus.google.com/+heiseonline">        <link href="/stil/ho/heiseonline2012.css?bee0cadfc3eb97423a70" rel="stylesheet" type="text/css">
+var useSSL = 'https:' == document.location.protocol;
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+      if (typeof yl === "undefined" || yl.YpResult === "undefined") return;
+      var yp_res = yl.YpResult.get(yield_id);
+      if (typeof yp_res === "undefined" || !yp_res.pricerange) return;
+      return yp_res.pricerange;
+    googletag.defineSlot("/6514/www.heise.de/homepage", [[548,318]], "div-gpt-ad-1882960792-1")
+      .addService(googletag.pubads());
+    googletag.defineSlot("/6514/www.heise.de/homepage", [[4,4]], "div-gpt-ad-1882960792-2")
+      .addService(googletag.pubads());
+    googletag.defineSlot("/6514/www.heise.de/homepage", [[500,500]], "div-gpt-ad-1882960792-3")
+      .addService(googletag.pubads());
+    googletag.defineSlot("/6514/www.heise.de/homepage", [[300,250],[300,600],[336,280]], "div-gpt-ad-1882960792-4")
+      .addService(googletag.pubads()).setTargeting("pricerange", yl_get_pricerange('66442'));
+    googletag.defineSlot("/6514/www.heise.de/homepage", [[468,60],[728,90],[970,250]], "div-gpt-ad-1882960792-5")
+      .addService(googletag.pubads()).setTargeting("pricerange", yl_get_pricerange('66444'));
+    googletag.defineSlot("/6514/www.heise.de/homepage", [[160,600],[200,800]], "div-gpt-ad-1882960792-6")
+      .addService(googletag.pubads()).setTargeting("pricerange", yl_get_pricerange('66424'));
+googletag.pubads().enableSyncRendering();
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+                    <script type="text/javascript" src="/js/ho/login.min.js?ea887cd229929afd1d8e"></script>
+                    <p><a href="https://www.heise.de/userdb/sso?rm=show_login&amp;dirid=1&amp;objekt=/">Einloggen</a> auf heise online</p>
+                        <img src="//www.heise.de/icons/ho/heise_online_logo_top.gif" alt="heise online" id="heisetopnavi_ho_logo_top_img">
+                                    <li class="heisetopnavi_ho"><a href="/" title="heise online � IT-News" name="dachzeile.ho.ho">News</a></li>
+                                    <li class="heisetopnavi_dev"><a href="/developer/" title="heise Developer � Informationen für Entwickler" name="dachzeile.ho.developer">heise Developer</a></li>
+                                    <li class="heisetopnavi_net"><a href="/netze/" title="heise Netze � Alles über Netzwerk-Technik" name="dachzeile.ho.netze">heise Netze</a></li>
+                                    <li class="heisetopnavi_op"><a href="/open/" title="heise open � Open Source im Unternehmen" name="dachzeile.ho.open">heise Open Source</a></li>
+                                    <li class="heisetopnavi_sec"><a href="/security/" title="heise Security � News, Dienste und Foren zum Thema Computer-Sicherheit" name="dachzeile.ho.security">heise Security</a></li>
+                                    <li class="heisetopnavi_ct"><a href="/ct/" title="c't � Magazin für Computertechnik" name="dachzeile.ho.ct">c't</a></li>
+                                    <li class="heisetopnavi_ix"><a href="/ix/" title="iX � Magazin für professionelle Informationstechnik" name="dachzeile.ho.ix">iX</a></li>
+                                    <li class="heisetopnavi_tr"><a href="/tr/" title="Technology Review � Das M.I.T.-Magazin für Innovation" name="dachzeile.ho.tr">Technology Review</a></li>
+                                    <li class="heisetopnavi_df"><a href="/foto/inhalt/" title="c't Digitale Fotografie" name="dachzeile.ho.digitale-fotografie">c't Digitale Fotografie</a></li>
+                                    <li class="heisetopnavi_mac"><a href="/mac-and-i/" title="Mac &amp; i � Nachrichten, Tests, Tipps und Meinungen rund um Apple" name="dachzeile.ho.mac-and-i">Mac &amp; i</a></li>
+                                    <li class="heisetopnavi_hh"><a href="/make/" title="Make � Kreativ mit Technik" name="dachzeile.ho.make">Make</a></li>
+                                    <li class="heisetopnavi_tp"><a href="/tp/" title="Telepolis" name="dachzeile.ho.tp">Telepolis</a></li>
+                                    <li class="heisetopnavi_aut"><a href="/autos/" title="heise Autos � News, Tests, Technik, Service rund ums Auto" name="dachzeile.ho.autos">heise Autos</a></li>
+                                    <li class="heisetopnavi_foto"><a href="/foto/" title="heise Foto � Das Online-Magazin rund ums digitale Bild" name="dachzeile.ho.foto">heise Foto</a></li>
+                                    <li class="heisetopnavi_tech"><a href="//www.techstage.de/" title="TechStage � News, Tests &amp; Praxis zu Smartphones und Tablets mit Android, iOS, Windows Phone &amp; Co." name="dachzeile.ho.techstage">TechStage</a></li>
+                                    <li class="heisetopnavi_swv"><a href="/download/" title="heise Download � Software zum Download fuer Windows, Mac, Linux, iPhone, Symbian, Android" name="dachzeile.ho.download">heise Download</a></li>
+                                    <li class="heisetopnavi_pvg"><a href="/preisvergleich/" title="Preisvergleich � Günstige Preise, Meinungen und Bewertungen zu vielen Produkten" name="dachzeile.ho.preisvergleich">Preisvergleich</a></li>
+                                    <li class="heisetopnavi_hbs"><a href="//business-services.heise.de/" title="heise Business Services � Produkte und Lösungen namhafter IT-Hersteller" name="dachzeile.ho.whitepapers">Whitepapers</a></li>
+                                    <li class="heisetopnavi_hbs"><a href="//business-services.heise.de/" title="heise Business Services � Produkte und Lösungen namhafter IT-Hersteller" name="dachzeile.ho.webcasts">Webcasts</a></li>
+                                    <li class="heisetopnavi_job"><a href="/jobs/" title="heise jobs � Jobbörse für qualifizierte Fach- und Führungskräfte aus der IT-Branche" name="dachzeile.ho.jobs">Stellenmarkt</a></li>
+                                    <li class="heisetopnavi_itm"><a href="/itmarkt/" title="IT-Markt � Branchenverzeichnis der IT-Fachhändler" name="dachzeile.ho.itmarkt">IT-Markt</a></li>
+                                    <li class="heisetopnavi_tarifr"><a href="/tarifrechner/" title="Tarifrechner � DSL, Mobiles Internet, Handy, Telefon, Strom, Gas" name="dachzeile.ho.tarifrechner">Tarifrechner</a></li>
+                                    <li class="heisetopnavi_shop"><a href="//shop.heise.de/" title="heise shop � IT Fachzeitschriften, Bücher, CD/DVD/Blu-ray" name="dachzeile.ho.shop">heise shop</a></li>
+                                    <li class="heisetopnavi_kio"><a href="/artikel-archiv/" title="Artikel-Archiv � c't, iX, Technology Review, Digitale Fotografie, Mac &amp; i, Sonderhefte" name="dachzeile.ho.artikel-archiv">Artikel-Archiv</a></li>
+                                    <li class="heisetopnavi_abo"><a href="//shop.heise.de/abo" title="Abo � c't, iX, Technology Review, Digitale Fotografie, Mac &amp; i" name="dachzeile.ho.abo">Zeitschriften-Abo</a></li>
+                                    <li class="heisetopnavi_eve"><a href="/events/" title="heise Events � Konferenzen, Seminare, Workshops" name="dachzeile.ho.events">Veranstaltungen</a></li>
+                                    <li class="heisetopnavi_hmg"><a href="http://heise-gruppe.de/-1812545" title="Arbeiten bei heise � Heise als Arbeitgeber" name="dachzeile.ho.hmg">Arbeiten bei Heise</a></li>
+                    <input type="search" class="search_text" value="" name="q" placeholder="in heise online suchen" data-autocomplete="true" data-searchpath="/suche/" ><input type="image" src="//www.heise.de/icons/ho/heise_online_lupe.gif" alt="Los" class="search_submit" name="search_submit">
+    jQuery(document).ready(function($) {
+        $('.heisetopnavi_button').bind('touchstart', function(e) {
+            e.preventDefault();
+            if ($(e.target).is('a.heisetopnavi_button')) {
+                $(this).toggleClass('active');
+                $('.heisetopnavi header > nav').toggleClass('hover');
+        $('.heisetopnavi .heisetopnavi_button').click(function(e) {
+            e.preventDefault();
+        $('.heisetopnavi .heisetopnavi_button').keyup(function(e) {
+            if (e.which == 13 && $(e.target).is('a.heisetopnavi_button')) {
+                $('.heisetopnavi .heisetopnavi_button').toggleClass('active');
+                $('.heisetopnavi header > nav').toggleClass('hover');
+        $('.heisetopnavi').removeClass('no-touch');
+        $('.heisetopnavi .heisetopnavi_hover_legacy').mouseenter(function() {
+            var timeout_id = window.setTimeout(function() {
+                $('.heisetopnavi .heisetopnavi_button').addClass('active');
+                $('.heisetopnavi nav').addClass('hover');
+                $('body').addClass('refreshDOM');
+                $('body').removeClass('refreshDOM');
+            $(this).data('timeout_id', timeout_id);
+        $('.heisetopnavi .heisetopnavi_hover_legacy').mouseleave(function() {
+            var timeout_id = $(this).data('timeout_id');
+            window.clearTimeout(timeout_id);
+            timeout_id = window.setTimeout(function() {
+                $('.heisetopnavi .heisetopnavi_button').removeClass('active');
+                $('.heisetopnavi nav').removeClass('hover');
+                $('body').addClass('refreshDOM');
+                $('body').removeClass('refreshDOM');
+            $(this).data('timeout_id', timeout_id);
+        heiseLogin.login_fill_navigation({});
+                    <li class="rss"         ><a href="/news-extern/news.html"               name="header.ho.sm.rss"         title="RSS-Feeds abonnieren">RSS</a></li>
+                    <li class="newsletter"  ><a href="/newsletter/"                         name="header.ho.sm.newsletter"  title="Newsletter abonnieren">Newsletter</a></li>
+                    <li class="google"      ><a href="https://plus.google.com/+heiseonline" name="header.ho.sm.google"      title="heise online auf Google+ folgen" target="_blank">Google+</a></li>
+                    <li class="facebook"    ><a href="https://www.facebook.com/heiseonline" name="header.ho.sm.facebook"    title="heise online auf Facebook folgen" target="_blank">Facebook</a></li>
+                    <li class="twitter"     ><a href="https://twitter.com/heiseonline"      name="header.ho.sm.twitter"     title="heise online auf Twitter folgen" target="_blank">Twitter</a></li>
+                                    <li><a name="themen.ho.windows_10" href="/thema/Windows-10">Windows 10</a></li>
+                                    <li><a name="themen.ho.idf" href="/thema/IDF">IDF</a></li>
+                                    <li><a name="themen.ho.android" href="/thema/Android">Android</a></li>
+                                    <li><a name="themen.ho.iphone_6s" href="/thema/iPhone-6s">iPhone 6s</a></li>
+                                    <li><a name="themen.ho.apple" href="/thema/Apple">Apple</a></li>
+                                    <li><a name="themen.ho.ifa_2015" href="/thema/IFA-2015">IFA 2015</a></li>
+                                    <li><a name="themen.ho.nsa" href="/thema/NSA">NSA</a></li>
+                                    <li><a name="themen.ho.virtual_reality" href="/thema/Virtual-Reality">Virtual Reality</a></li>
+                                    <li><a name="themen.ho.rosetta" href="/thema/Rosetta">Rosetta</a></li>
+                                    <li><a name="themen.ho.vorratsdatenspeicherung" href="/thema/Vorratsdatenspeicherung">Vorratsdatenspeicherung</a></li>
+                <a href="/newsticker/meldung/IDF-2015-Die-Welt-veraendern-Intel-bricht-Lanze-fuer-Make-Bewegung-2787309.html" title="&quot;Die Welt verändern&quot;" name="ticker.ho.topteaser.1-1" class="the_content_url">
+                        <div class="img_clip"><img src="//2.f.ix.de/imgs/71/1/5/7/0/6/2/5/001-125ed1437875c2c3.jpeg" width="540" height="344" alt=""  /></div>
+                        <li><a href="/meldung/IDF-2015-Amerika-sucht-den-Maker-Star-2786309.html" name="ticker.ho.topteaser.zusatzlink" >IDF 2015: Amerika sucht den Maker-Star</a></li>
+                        <li><a href="/meldung/IDF-2015-Entwicklermodul-Curie-laesst-die-Spinnen-tanzen-2784672.html" name="ticker.ho.topteaser.zusatzlink" >IDF 2015: Entwicklermodul Curie lässt die Spinnen tanzen</a></li>
+                        <li><a href="/thema/IDF" name="ticker.ho.topteaser.zusatzlink"  target="_blank">Aktuelles und Hintergrund vom IDF</a></li></ul>
+        <div id="zeile_b" class="topteaser_2011 layout_6" data-equal-max="h2,.dachzeile,p" data-equal-min=".img_clip">
+                <a href="/newsticker/meldung/LiMux-Muenchner-CSU-will-auf-Laptops-von-Linux-zurueck-zu-Windows-2787042.html" title="Münchner CSU will von Linux zurück zu Windows" name="ticker.ho.topteaser.2-1" class="the_content_url">
+                        <div class="img_clip"><img src="//3.f.ix.de/imgs/71/1/5/7/0/6/2/5/urn-newsml-dpa-com-20090101-140407-99-00729_large_4_3-8b8cd4ee8ff9a1de-67c31402dc80fa2e.jpeg" width="260" height="195" alt=""  /></div>
+                        Die CSU-Fraktion im Münchner Stadtrat verlangt, die Notebooks der Abgeordneten "für den alltäglichen Gebrauch tauglich zu machen" und von Linux auf Windows umzustellen. <span class="indexlist_more"></span>
+                <a href="/newsticker/meldung/Web-de-und-GMX-fuehren-PGP-Verschluesselung-fuer-Mail-ein-2786133.html" title="Web.de und GMX führen PGP-Verschlüsselung für Mail ein" name="ticker.ho.topteaser.2-2" class="the_content_url">
+                    <h2>Web.de und GMX führen PGP-Verschlüsselung für Mail ein</h2>
+                        <div class="img_clip"><img src="//2.f.ix.de/imgs/71/1/5/7/0/6/2/5/E-Mail-Verschluesselung-8bd04592b10b81c0.jpeg" width="540" height="280" alt="E-Mail, Verschlüsselung, PGP"  /></div>
+                        Sehr einfach zu bedienen, aber dennoch sicher soll die PGP-Erweiterung der Mail-Dienste von Web.de und GMX sein, die sich per Web-Oberfläche und Mobil-Apps nutzen lässt. c't hat's schon mal ausprobiert.<span class="indexlist_more"></span>
+        <div id="zeile_c" class="topteaser_2011 layout_8" data-equal-max="h2,.dachzeile,p" data-equal-min=".img_clip">
+                <a href="/newsticker/meldung/Moege-der-Shitstorm-kommen-Prominente-helfen-Fluechtlingen-2786504.html" title="Möge der Shitstorm kommen" name="ticker.ho.topteaser.3-1" class="the_content_url">
+                        <div class="img_clip"><img src="//3.f.ix.de/imgs/71/1/5/7/0/6/2/5/flucht-9ee9a903f8e08e7a-1737375987db65e8.jpeg" width="160" height="120" alt=""  /></div>
+                        Heinz Rudolf Kunze wei�x es: Tut man etwas Gutes, weht der "Dreckwind". Und er ist nicht der Einzige, der sich für Flüchtlinge einsetzt.<span class="indexlist_more"></span>
+                <a href="/newsticker/meldung/Staatliche-Foerderung-sorgt-fuer-Elektroauto-Boom-in-Norwegen-2786819.html" title="Der E-Auto-Boom in Norwegen" name="ticker.ho.topteaser.3-2" class="the_content_url">
+                    <h2>Der E-Auto-Boom in Norwegen <img src="//2.f.ix.de/icons/ho/bilderstrecke.png"     width="17"  height="11" alt="Bilderstrecke" title="Bilderstrecke im Beitrag" /></h2>
+                        <div class="img_clip"><img src="//3.f.ix.de/imgs/71/1/5/7/0/6/2/5/Tesla-model-s-6a6e97be85e35add.jpeg" width="160" height="120" alt="Elektroauto Tesla Model S"  /></div>
+                        In keinem anderen Land boomen Elektrofahrzeuge so wie in Norwegen. Das liegt an enormen staatlichen Subventionen.<span class="indexlist_more"></span>
+                <a href="/newsticker/meldung/Spotify-aktualisiert-AGB-und-will-mehr-ueber-seine-Nutzer-wissen-2787076.html" title="Spotify wird neugieriger" name="ticker.ho.topteaser.3-3" class="the_content_url">
+                        <div class="img_clip"><img src="//2.f.ix.de/imgs/71/1/5/7/0/6/2/5/urn-newsml-dpa-com-20090101-150602-99-01450_large_4_3-df479c301e9ca0e8.jpeg" width="160" height="120" alt="Musik-Dienst Spotify"  /></div>
+                        Spotify nimmt sich in seinen neuen AGB das Recht, mehr Daten zu sammeln und  auch an Dritte weiterzugeben.<span class="indexlist_more"></span>
+            <a href="/newsticker/meldung/Psychotherapie-im-Netz-Hilfe-und-Sicherheitsbedenken-2787417.html" title="Psychotherapie im Netz: Hilfe und Sicherheitsbedenken" name="ticker.ho.anrissliste.1">Psychotherapie im Netz: Hilfe und Sicherheitsbedenken</a>
+        <a href="/newsticker/meldung/Psychotherapie-im-Netz-Hilfe-und-Sicherheitsbedenken-2787417.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.1">
+            <figure><img src="//3.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/6/4/4/netstep-cc18097e8a84cc5a.jpeg" alt="Psychotherapie im Netz: Hilfe und Sicherheitsbedenken"></figure>
+        <p>Keine Wartelisten, keine fixen Termine: Das versprechen Online-Psychotherapien. Bisher gibt es in Deutschland nur Modellprojekte. Fans preisen die Erfolge, doch Kritiker fürchten Verantwortungslosigkeit und Daten-Lecks.<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Moxa-bringt-redundante-WLAN-Bridge-fuer-Industrie-Netzwerke-2783014.html" title="Moxa bringt redundante WLAN-Bridge für Industrie-Netzwerke " name="ticker.ho.anrissliste.2">Moxa bringt redundante WLAN-Bridge für Industrie-Netzwerke </a>
+        <a href="/newsticker/meldung/Moxa-bringt-redundante-WLAN-Bridge-fuer-Industrie-Netzwerke-2783014.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.2">
+            <figure><img src="//2.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/6/8/2/0/6/Aerolink-424e23ab1acf1408.jpeg" alt="Redundante WLAN-Bridge"></figure>
+        <p>Die neue WLAN-Brücke soll beispielsweise entfernte Gebäude oder weit auseinanderliegende Liegenschaften ausfallsicher koppeln. Dazu kommen mehrere Gerätepaare zum Einsatz.<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Das-leere-Buero-Neue-Arbeitszeitmodelle-krempeln-Firmen-um-2787396.html" title="Das leere Büro? Neue Arbeitszeitmodelle krempeln Firmen um" name="ticker.ho.anrissliste.3">Das leere Büro? Neue Arbeitszeitmodelle krempeln Firmen um</a>
+        <a href="/newsticker/meldung/Das-leere-Buero-Neue-Arbeitszeitmodelle-krempeln-Firmen-um-2787396.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.3">
+            <figure><img src="//2.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/6/2/8/839214_51169527-6ba41d1a7c96e055-617d467a97314f5f.jpeg" alt="Das leere Büro? Neue Arbeitszeitmodelle krempeln Firmen um"></figure>
+        <p>Arbeiten wo und wann man will � viele Menschen schätzen die neue Freiheit im Job. Doch was wird aus den Firmen, wenn die Büros zunehmend verwaisen?<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Hewlett-Packard-verkauft-weniger-Drucker-PCs-und-Notebooks-2787389.html" title="Hewlett-Packard verkauft weniger Drucker, PCs und Notebooks" name="ticker.ho.anrissliste.4">Hewlett-Packard verkauft weniger Drucker, PCs und Notebooks</a>
+        <a href="/newsticker/meldung/Hewlett-Packard-verkauft-weniger-Drucker-PCs-und-Notebooks-2787389.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.4">
+            <figure><img src="//3.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/6/2/3/urn-newsml-dpa-com-20090101-140707-99-03484_large_4_3-368b1ba38d4ba1ad.jpeg" alt="PC-Markt"></figure>
+        <p>Besonders wegen rückläufiger Geschäfte bei der Drucker- und PC-Sparte muss Hewlett-Packard Umsatz- und Gewinnrückgänge hinnehmen. DIe beiden Bereiche sollen in eine eigene Firma ausgelagert werden.<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Haushaltsroboter-hilft-beim-Spuelen-2787279.html" title="Haushaltsroboter hilft beim Spülen" name="ticker.ho.anrissliste.5">Haushaltsroboter hilft beim Spülen</a>
+        <a href="/newsticker/meldung/Haushaltsroboter-hilft-beim-Spuelen-2787279.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.5">
+            <figure><img src="//1.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/5/7/0/teyorotdthdi550-9071e047848a0eb0.png" alt="Haushaltsroboter hilft beim Spülen"></figure>
+        <p>Teamwork zwischen Mensch und Roboter erforschen Wissenschaftler an der University of Wisconsin-Madison. Dabei zeigt sich, dass die Maschinen stärker auf ihren Benutzer eingehen müssen.<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Swisscom-und-Ericsson-peilen-LTE-Advanced-mit-335-MBit-s-an-2787197.html" title="Swisscom und Ericsson peilen LTE-Advanced mit 335 MBit/s an" name="ticker.ho.anrissliste.6">Swisscom und Ericsson peilen LTE-Advanced mit 335 MBit/s an</a>
+        <a href="/newsticker/meldung/Swisscom-und-Ericsson-peilen-LTE-Advanced-mit-335-MBit-s-an-2787197.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.6">
+            <figure><img src="//1.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/5/2/2/Bildschirmfoto_2015-08-20_um_19-72644a0287b838c3.png" alt="Swisscom, Ericsson und Qualcom demonstrieren nächste LTE-Ausbaustufe"></figure>
+        <p>Die beiden Unternehmen bündeln dafür drei Träger im Mobilfunknetz der Swisscom. So erzielen sie zwar ähnliche Geschwindigkeiten wie die Telekom in ihrem Netz, aber das Züricher Demo-System dürfte auch für Deutschland wegweisend sein.<span class="indexlist_more"></span></p>
+                <aside><div class="channel_balken foto" data-equal-max=".channel_balken_titel">
+                            <a href="/foto/"><img src="//2.f.ix.de/foto/icons/heise_foto_logo_min_weiss.png" alt="heise Foto"></a>
+                        <a href="/foto/artikel/Test-Panasonic-Lumix-G70-2784705.html" class="channel_balken_text first" name="ticker.ho.ntteaser.foto">
+                                <img src="//3.f.ix.de/imgs/71/1/2/5/6/2/6/9/009_FY2015_LUMIX_G70_k_slant_H_FS14140_LCD-5bcc7c6237efb20b.jpeg" alt="">
+                                <i><figcaption>DSLR-Design, moderne und üppige Ausstattung. Wir haben spiegellose Systemkamera G70 mit Micro-Four-Thirds-Chip getestet. </figcaption></i>
+                        <a href="/foto/galerie/fullscreen/?sort=neueste&page=1" class="channel_balken_text" name="ticker.ho.ntteaser.foto">
+                                <img src="//3.f.ix.de/imgs/71/1/2/5/6/2/6/9/The-Magic-of-Eyes-2ba8ef2e8c6bf90b.jpeg" alt="">
+                                <i><figcaption>Perfekt auch als Bookmark: Die Neuzugänge in der heise Foto Galerie.</figcaption></i>
+            <a href="/newsticker/meldung/Sonys-SmartBand-2-mit-Herzschlag-Sensor-2787285.html" title="Sonys SmartBand 2 mit Herzschlag-Sensor" name="ticker.ho.anrissliste.7">Sonys SmartBand 2 mit Herzschlag-Sensor</a>
+        <a href="/newsticker/meldung/Sonys-SmartBand-2-mit-Herzschlag-Sensor-2787285.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.7">
+            <figure><img src="//1.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/5/7/5/smartband2-17f63de107991bcc.jpeg" alt="Sonys SmartBand 2 mit Herzschlag-Sensor"></figure>
+        <p>Sonys neuer Fitness-Tracker hat einen Herzschlag-Sensor und ist zu mehr Geräten kompatibel. Er erscheint voraussichtlich im September zum Preis von 119 Euro.<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/AVM-reicht-FritzOS-Update-fuer-WLAN-Repeater-und-Powerline-Adapter-nach-2787017.html" title="AVM reicht FritzOS-Update für WLAN-Repeater und Powerline-Adapter nach" name="ticker.ho.anrissliste.8">AVM reicht FritzOS-Update für WLAN-Repeater und Powerline-Adapter nach</a>
+        <a href="/newsticker/meldung/AVM-reicht-FritzOS-Update-fuer-WLAN-Repeater-und-Powerline-Adapter-nach-2787017.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.8">
+            <figure><img src="//3.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/4/2/3/AVM_FRITZOS_630_FRITZWLAN_Repeater_1750E_FRITZPowerline_546E-8ca291c3cdbfd9ac.jpeg" alt="FritzWlan Repeater 1750E und Fritz Powerline 546E"></figure>
+        <p>Neben diversen Verbesserungen bringt die neue FritzOS-Version auch die Grundlage für die im Herbst erwartete zentrale Aktualisierung aller AVM-Geräte mit.<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Puppet-Workshop-noch-eine-Woche-Fruehbucherrabatt-2783016.html" title="Puppet-Workshop: noch eine Woche Frühbucherrabatt " name="ticker.ho.anrissliste.9">Puppet-Workshop: noch eine Woche Frühbucherrabatt </a>
+        <a href="/newsticker/meldung/Puppet-Workshop-noch-eine-Woche-Fruehbucherrabatt-2783016.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.9">
+            <figure><img src="//3.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/6/8/2/0/8/aufmacher_ajax-12cc08c4114a236c.jpeg" alt="Puppet-Workshop: noch eine Woche Frühbucherrabatt"></figure>
+        <p>Ein zweitägiges Seminar zeigt Linux-Administratoren, wie sie viel repetitive Arbeit mit dem freien Tool Puppet automatisieren können.<span class="indexlist_more"></span></p>
+googletag.display("div-gpt-ad-1882960792-1");
+<noscript><div><a href="//pubads.g.doubleclick.net/gampad/jump?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=548x318&tile=1" target="_blank"><img alt="" src="//pubads.g.doubleclick.net/gampad/ad?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=548x318&tile=1" /></a></div></noscript>
+            <a href="/newsticker/meldung/Bewerbung-Sony-ermoeglicht-Beta-Test-des-neuen-PS4-Betriebssystems-2787276.html" title="Bewerbung: Sony ermöglicht Beta-Test des neuen PS4-Betriebssystems" name="ticker.ho.anrissliste.10">Bewerbung: Sony ermöglicht Beta-Test des neuen PS4-Betriebssystems</a>
+        <a href="/newsticker/meldung/Bewerbung-Sony-ermoeglicht-Beta-Test-des-neuen-PS4-Betriebssystems-2787276.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.10">
+            <figure><img src="//1.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/5/6/7/ps4_update_tester-33c7784716a97a20.jpeg" alt="Bewerbung: Sony ermöglicht Beta-Test des neuen PS4-Betriebssystems"></figure>
+        <p>PS4-Besitzer können die neue Systemsoftware 3.0 schon vorab ausprobieren. Die Bewerbung für den Beta-Test ist noch bis zum 26. August möglich. <span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Nach-dem-Hack-Bundestag-schaltet-Computersystem-ab-2787251.html" title="Nach dem Hack: Bundestag schaltet Computersystem ab" name="ticker.ho.anrissliste.11">Nach dem Hack: Bundestag schaltet Computersystem ab</a>
+        <a href="/newsticker/meldung/Nach-dem-Hack-Bundestag-schaltet-Computersystem-ab-2787251.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.11">
+            <figure><img src="//1.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/5/5/6/urn-newsml-dpa-com-20090101-150817-99-07511_large_4_3-5651ccd72b45d5f9.jpeg" alt="Computer im Bundestag"></figure>
+        <p>Ausgeforschte E-Mails? Offengelegte Geheimnisse? Ein Hackerangriff auf den Bundestag sorgte für gro�xe Verunsicherung. Jetzt wird dort das Computersystem überarbeitet. Viele Fragen sind aber noch offen.<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Android-Google-schreibt-weniger-Standard-Apps-vor-2787074.html" title="Android: Google schreibt weniger Standard-Apps vor " name="ticker.ho.anrissliste.12">Android: Google schreibt weniger Standard-Apps vor </a>
+        <a href="/newsticker/meldung/Android-Google-schreibt-weniger-Standard-Apps-vor-2787074.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.12">
+            <figure><img src="//3.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/4/6/3/2015-08-20_15-bd1d455753a0f1de.jpeg" alt="Android Standard-Apps"></figure>
+        <p>Google hat die Hersteller-Vorgaben für Android-Smartphones mit Google-Apps gelockert: &quot;Notizen&quot;, &quot;Play Bücher&quot;, &quot;Play Kiosk&quot; und andere Anwendungen müssen künftig nicht mehr vom Hersteller vorinstalliert werden. <span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Modulares-Smartphone-Googles-Project-Ara-zurueck-ans-Reissbrett-2787199.html" title="Modulares Smartphone: Googles Project Ara zurück ans Rei�xbrett" name="ticker.ho.anrissliste.13">Modulares Smartphone: Googles Project Ara zurück ans Rei�xbrett</a>
+        <a href="/newsticker/meldung/Modulares-Smartphone-Googles-Project-Ara-zurueck-ans-Reissbrett-2787199.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.13">
+            <figure><img src="//1.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/5/2/4/P3010864-389081b361ca272f.jpeg" alt="Modulares Smartphone"></figure>
+        <p>Google verschiebt das Pilotprogramm für Project Ara auf 2016. Das modulare Smartphone-Konzept muss überarbeitet werden. Probleme machen offenbar die Elektropermanentmagneten, die Chassis und Funktionsmodule zusammenhalten sollten.<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Yamaha-Musik-in-allen-Raeumen-mit-MusicCast-2787148.html" title="Yamaha: Musik in allen Räumen mit MusicCast " name="ticker.ho.anrissliste.14">Yamaha: Musik in allen Räumen mit MusicCast </a>
+        <a href="/newsticker/meldung/Yamaha-Musik-in-allen-Raeumen-mit-MusicCast-2787148.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.14">
+            <figure><img src="//3.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/4/9/1/Yamaha_MusicCast_3-e89aca446b9433fe.jpeg" alt="MusicCast"></figure>
+        <p>Mit seinem MusicCast-System gehörte Yamaha vor 12 Jahren zu den Streaming-Pionieren. Nach langer Pause steigt der HiFi-Spezialist nun wieder voll ins Geschäft von Sonos &amp; Co. ein. <span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Yamaha-bringt-Soundprojektor-fuer-Dolby-Atmos-und-DTS-X-2787022.html" title="Yamaha bringt Soundprojektor für Dolby Atmos und DTS:X" name="ticker.ho.anrissliste.15">Yamaha bringt Soundprojektor für Dolby Atmos und DTS:X</a>
+        <a href="/newsticker/meldung/Yamaha-bringt-Soundprojektor-fuer-Dolby-Atmos-und-DTS-X-2787022.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.15">
+            <figure><img src="//1.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/4/2/8/yamaha_3-15050849b3b3a1da.jpeg" alt="Yamaha Soundprojektor"></figure>
+        <p>Yamaha hat mit dem YSP-5600 den ersten Soundprojektor angekündigt, der nicht nur 7.1-Sound erzeugt, sondern bei den neue Surround-Formaten auch Deckenlautsprecher überflüssig machen soll.<span class="indexlist_more"></span></p>
+<a href="http://www.heise.de/mediadaten/online/" target="_blank" class="hinweis_anzeige left">Anzeige</a><br><div id='div-gpt-ad-1882960792-2'>
+googletag.display("div-gpt-ad-1882960792-2");
+<noscript><div><a href="//pubads.g.doubleclick.net/gampad/jump?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=4x4&tile=2" target="_blank"><img alt="" src="//pubads.g.doubleclick.net/gampad/ad?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=4x4&tile=2" /></a></div></noscript>
+            <a href="/newsticker/meldung/Sideclick-Erweiterung-fuer-die-Fernbedienung-von-Streaming-Boxen-2787083.html" title="Sideclick: Erweiterung für die Fernbedienung von Streaming-Boxen" name="ticker.ho.anrissliste.16">Sideclick: Erweiterung für die Fernbedienung von Streaming-Boxen</a>
+        <a href="/newsticker/meldung/Sideclick-Erweiterung-fuer-die-Fernbedienung-von-Streaming-Boxen-2787083.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.16">
+            <figure><img src="//3.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/4/7/2/sideclick-f9f0dc306e74f141.jpeg" alt="Erweiterung für die Fernbedienung "></figure>
+        <p>Sideclick ist eine Funktionserweiterung, die sich an den Fernbedienungen von Apple TV, Nexus Player, Fire TV und Roku anbringen lässt. Die zusätzlichen Knöpfe sollen die Bedienung der Geräte erleichtern.<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Boom-bei-deutschen-Bot-Netz-und-Phishing-Domains-2786836.html" title="Boom bei deutschen Bot-Netz- und Phishing-Domains " name="ticker.ho.anrissliste.17">Boom bei deutschen Bot-Netz- und Phishing-Domains </a>
+        <a href="/newsticker/meldung/Boom-bei-deutschen-Bot-Netz-und-Phishing-Domains-2786836.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.17">
+            <figure><img src="//2.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/2/8/6/domains-fb84dae7e48b510b.jpeg" alt=".de .at"></figure>
+        <p>Bei Kriminellen werden .de- und .at-Domains immer beliebter, weil die fast nicht tot zu kriegen sind, beschweren sich die Anti-Malware-Aktivisten von Spamhaus. Das CERT-Bund springt ihnen zur Seite -- doch Denic und Nic.at halten gegen.<span class="indexlist_more"></span></p>
+            <a href="/newsticker/meldung/Nvidia-GeForce-GTX-950-Multimedia-Grafikkarte-fuer-die-Filme-der-Zukunft-2786883.html" title="Nvidia GeForce GTX 950: Multimedia-Grafikkarte für die Filme der Zukunft" name="ticker.ho.anrissliste.18">Nvidia GeForce GTX 950: Multimedia-Grafikkarte für die Filme der Zukunft</a>
+                <li class="icon"><img src="//2.f.ix.de/icons/ho/bilderstrecke.png"     width="17"  height="11" alt="Bilderstrecke" title="Bilderstrecke im Beitrag" /></li>
+        <a href="/newsticker/meldung/Nvidia-GeForce-GTX-950-Multimedia-Grafikkarte-fuer-die-Filme-der-Zukunft-2786883.html" class="indexlist_text masterbild" name="ticker.ho.anrissliste.18">
+            <figure><img src="//2.f.ix.de/scale/geometry/160x90/q75/imgs/18/1/5/7/0/3/2/1/Aufmacher-7093c623835e0c96.png" alt="Nvidia GeForce GTX 950"></figure>
+        <p>Nvidias GeForce GTX 950 stellt aktuelle Spiele in Full HD flüssig dar und bringt eine moderne Video-Engine mit, die für künftige 4K-Blu-rays und 4K-Bezahlstreams gewappnet ist.<span class="indexlist_more"></span></p>
+        <p class="nachricht">Fehlt eine wichtige Nachricht? Geben Sie uns <a href="mailto:newstips@heise.de">Bescheid</a>! <br /></p>
+    <img src="//2.f.ix.de/icons/ho/00on.gif" width="1" height="1" alt="" />
+    <div><img src="//1.f.ix.de/icons/ho/00off.gif" width="1" height="1" alt="" /></div>
+								<a href="/video/" class="video-channel" name="ho.buehne.ho_video.cat_link">
+								<a href="/video/artikel/c-t-uplink-7-9-Exploit-Kits-fuer-jedermann-Regional-Codes-bei-Druckerpatronen-Experiment-Billig-PC-2779783.html" class="video" name="ho.buehne.ho_video.1">
+									<img src="//3.f.ix.de/scale/geometry/139x78/q75//imgs/09/1/5/6/6/7/8/5/THUMB-8c7abc471760062f.jpeg" class="img-responsive" alt=""/>
+							<a href="/video/artikel/c-t-uplink-7-9-Exploit-Kits-fuer-jedermann-Regional-Codes-bei-Druckerpatronen-Experiment-Billig-PC-2779783.html" name="ho.buehne.ho_video.1"><p>c't uplink 7.9: Exploit-Kits für jedermann, Regional-Codes bei Druckerpatronen, Experiment Billig-PC</p></a>
+								<a href="/video/artikel/nachgehakt-Billig-PC-selbstgebaut-2779270.html" class="video" name="ho.buehne.ho_video.2">
+									<img src="//1.f.ix.de/scale/geometry/139x78/q75//imgs/09/1/5/5/9/1/1/9/nachgehakt-PC_Bau_Battle_-_B-33987c162209fda0.jpeg" class="img-responsive" alt=""/>
+							<a href="/video/artikel/nachgehakt-Billig-PC-selbstgebaut-2779270.html" name="ho.buehne.ho_video.2"><p>nachgehakt: Billig-PC selbstgebaut</p></a>
+								<a href="/video/artikel/Samsung-Galaxy-Note-5-ausprobiert-2778935.html" class="video" name="ho.buehne.ho_video.3">
+									<img src="//2.f.ix.de/scale/geometry/139x78/q75//imgs/09/1/5/6/6/3/2/7/SANY0072_ho_preview1-73212d867f08f504.jpeg" class="img-responsive" alt=""/>
+							<a href="/video/artikel/Samsung-Galaxy-Note-5-ausprobiert-2778935.html" name="ho.buehne.ho_video.3"><p>Samsung Galaxy Note 5 - ausprobiert</p></a>
+								<a href="/video/artikel/Ausprobiert-Samsung-Galaxy-S6-Edge-Plus-2778869.html" class="video" name="ho.buehne.ho_video.4">
+									<img src="//1.f.ix.de/scale/geometry/139x78/q75//imgs/09/1/5/6/6/3/2/1/SANY0045_ho_preview3-1749f497a52e8bfc.jpeg" class="img-responsive" alt=""/>
+							<a href="/video/artikel/Ausprobiert-Samsung-Galaxy-S6-Edge-Plus-2778869.html" name="ho.buehne.ho_video.4"><p>Ausprobiert: Samsung Galaxy S6 Edge Plus</p></a>
+								<a href="/video/artikel/Palette-Gear-Hardware-Controller-fuer-Photoshop-und-Lightroom-2777753.html" class="video" name="ho.buehne.ho_video.5">
+									<img src="//3.f.ix.de/scale/geometry/139x78/q75//imgs/09/1/5/6/5/6/7/0/89417831_781ebff190-920cff2e5f42f981.jpeg" class="img-responsive" alt=""/>
+							<a href="/video/artikel/Palette-Gear-Hardware-Controller-fuer-Photoshop-und-Lightroom-2777753.html" name="ho.buehne.ho_video.5"><p>Palette Gear: Hardware-Controller für Photoshop und Lightroom</p></a>
+								<a href="/video/artikel/c-t-uplink-7-8-GDC-Gamescom-Programmieren-Lernen-Ubuntu-Smartphones-2775058.html" class="video" name="ho.buehne.ho_video.6">
+									<img src="//2.f.ix.de/scale/geometry/139x78/q75//imgs/09/1/5/6/3/8/5/3/THUMB_7-0757ef0550b38f88.jpeg" class="img-responsive" alt=""/>
+							<a href="/video/artikel/c-t-uplink-7-8-GDC-Gamescom-Programmieren-Lernen-Ubuntu-Smartphones-2775058.html" name="ho.buehne.ho_video.6"><p>c't uplink 7.8 - GDC, Gamescom, Programmieren Lernen, Ubuntu-Smartphones</p></a>
+					<aside class="row channel channel_tp" data-equal-max=".equal" aria-role="complementary" aria-label="Make">
+								<a href="/tp/" class="make-channel" name="ho.buehne.channel_tp.cat_link">
+    <svg class="channel-logo telepolis tp" preserveAspectRatio="xMinYMin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1998 446.2"><path fill="#B42900" d="M190.9 5.8V56h-65.2v384.5H68V55.9H0V5.8h190.9zM405.8 5.8V56H308v136.6h87.4v50.2H308v147.6h97.8v50.2H250.1V5.8h155.7zM547.5 5.8v384.5h97.3v50.2H489.6V5.8h57.9zM857.7 5.8V56h-97.8v136.6h87.4v50.2h-87.4v147.6h97.8v50.2H702V5.8h155.7zM949.4 440.4V5.8h68.7c49.3 0 112.3 4.6 112.3 116.4 0 88.2-34.4 129.1-123.7 125.7v192.5h-57.3zm57.3-385.6v144.1c49.3 3.5 63-23.6 63-72.1 0-39.2-11.5-72.1-55-72.1h-8zM1409.7 223.1c0 78.4-1.2 223.1-113.3 223.1s-113.3-144.7-113.3-223.1S1184.3 0 1296.4 0c112.2 0 113.3 144.7 113.3 223.1zm-165.3 0c0 92.2 6.4 168.9 52 168.9 45.7 0 52-76.7 52-168.9s-6.4-168.9-52-168.9-52 76.7-52 168.9zM1539.7 5.8v384.5h97.3v50.2h-155.1V5.8h57.8zM1744.5 440.4h-57.9V5.8h57.9M1976.8 72.6c-14.9-11-29.3-18.4-48.8-18.4-31.6 0-51.1 25.9-51.1 55.9 0 19 4.6 32.3 16.1 47.3l43.6 47.8c39 39.8 61.4 68.6 61.4 127.4 0 61.1-37.9 113.6-101.6 113.6-22.4 0-45.4-6.3-63.2-20.8v-58.2c17.2 12.7 34.4 22.5 56.8 22.5 35.6 0 50.5-28.2 50.5-60.5 0-86.5-121.1-103.8-121.1-217.9 0-61.1 32.1-111.3 97-111.3 21.8 0 42.5 3.5 60.9 14.4l-.5 58.2z"/></svg>
+							<a href="/tp/artikel/45/45748/1.html" name="ho.buehne.channel_tp.1">
+							<a href="/tp/artikel/45/45748/1.html" class="article" name="ho.buehne.channel_tp.1">
+								<img src="//3.f.ix.de/scale/geometry/462x256/q75//imgs/09/1/5/5/9/8/7/4/45748_11x-baaa58eb33d83114.jpeg" class="img-responsive" alt=""/>
+							<a href="/tp/artikel/45/45682/1.html" name="ho.buehne.channel_tp.2">
+							<a href="/tp/artikel/45/45682/1.html" class="article" name="ho.buehne.channel_tp.2">
+								<img src="//1.f.ix.de/scale/geometry/462x256/q75//imgs/09/1/5/5/9/8/6/7/45682_2x-e6e70a27101d838e.jpeg" class="img-responsive" alt=""/>
+					<aside class="row channel channel_make" data-equal-max=".equal" aria-role="complementary" aria-label="Make">
+								<a href="/make/" class="make-channel" name="ho.buehne.channel_make.cat_link">
+    <svg class="channel-logo make" preserveAspectRatio="xMinYMin" xmlns="http://www.w3.org/2000/svg" viewBox="0 841.9 387.8 200"><path fill="#ED1C24" d="M361.3 912h26.4v23.7h-26.4V912zm0 57.8h26.4v23.7h-26.4v-23.7zm-83.4-17c0-31.6 24.2-42.5 41-42.5s37.4 8.4 37.4 45.4v3.7h-54c1.2 13.5 8.7 18.6 19 18.6 9.6 0 18.6-4.8 24.2-9.8l9.5 14.7c-9.5 8.1-21.2 12.2-35.5 12.2-21.3 0-41.6-10.9-41.6-42.3zm56.3-8c-1.2-11.5-6.4-16.9-15.6-16.9-7.7 0-14.2 5-16 16.9h31.6zm-127.8-64.5H231v62l25.4-30.4h26.4l-26.6 30.4 28.1 51.1H259l-18-33.2-10 11.1v22h-24.6v-113zM122 972.6c0-18.8 15.9-29.2 51.6-32.1v-2c0-6-3.1-9.8-11-9.8-10.4 0-19.2 4.2-26.8 10.1l-10.4-14.1c8.1-7.3 20.3-14.5 40.6-14.5 22.3 0 31.5 11 31.5 31.9v31.4c0 9.8.7 15.8 2.3 19.9h-24.5c-1-3.3-1.8-7.3-1.8-11.9-7.5 8.4-16.3 13.2-28.5 13.2-12.3-.1-23-8.2-23-22.1zm51.6-3.6v-15c-19.4 2-27.7 6.9-27.7 14.3 0 5.2 3.7 7.8 9 7.8 8.7 0 14.6-2.9 18.7-7.1zM.1 880.3h32.8l25.2 83.2h.3L82 880.3h33.6v113.1h-24v-77.2h-.3c-1.7 9.8-3.8 16.9-6.3 25.2l-16.9 52h-22l-16.8-52c-2.6-8.6-4.1-13.5-6.6-26.4h-.3v78.4H.1V880.3z"/></svg>
+							<a href="/meldung/Chaos-Communication-Camp-2015-Von-3D-Druckern-und-Holzkuppeln-2779937.html" name="ho.buehne.channel_make.1">
+							<a href="/meldung/Chaos-Communication-Camp-2015-Von-3D-Druckern-und-Holzkuppeln-2779937.html" class="article" name="ho.buehne.channel_make.1">
+								<img src="//3.f.ix.de/scale/geometry/308x170/q75//imgs/18/1/5/6/6/9/4/7/dome-0284fdb8c401edf4.png" class="img-responsive" alt="Chaos Communication Camp 2015:"/>
+								<p>Tagsüber 30 Grad, in der Nacht ein Wolkenbruch. Dazwischen gab es auf dem Chaos Communication Camp wieder viel zu sehen und⬦</p>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill-rule="evenodd" clip-rule="evenodd" fill="#999" d="M1773.2 400H224.8C101.1 400 0 501.1 0 624.8v750.7c0 123.6 101.1 224.8 224.8 224.8l1548.4-2.5c123.6 0 224.8-101.1 224.8-224.8V624.8c0-123.7-101.1-224.8-224.8-224.8z"/><path fill="#FFF" d="M881.7 700.9c-11.2-8-20.4-3.2-20.4 10.5v577.4c0 13.8 9.2 18.5 20.4 10.6l401.8-284.3c11.2-7.9 11.2-21 0-28.9L881.7 700.9z"/></svg>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill="#999" d="M1938 450H60v1094h318.1v456l414.7-456H1938"/></svg>
+							<a href="/meldung/Nogs-IoT-Board-bei-Watterott-2781381.html" name="ho.buehne.channel_make.2">
+							<a href="/meldung/Nogs-IoT-Board-bei-Watterott-2781381.html" class="article" name="ho.buehne.channel_make.2">
+								<img src="//3.f.ix.de/scale/geometry/308x170/q75//imgs/18/1/5/6/7/4/8/5/nogs_gb-35c584edab196441.png" class="img-responsive" alt="Nogs-IoT-Board bei Watterott"/>
+								<p>"Nodes got savvy" hei�xt ein junges Open-Source-/Open-Hardware-Konzept für das Internet of Things mit intelligenten Knoten.</p>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill="#999" d="M1938 450H60v1094h318.1v456l414.7-456H1938"/></svg>
+							<a href="/meldung/Make-4-15-jetzt-im-heise-Shop-bestellbar-2778347.html" name="ho.buehne.channel_make.3">
+							<a href="/meldung/Make-4-15-jetzt-im-heise-Shop-bestellbar-2778347.html" class="article" name="ho.buehne.channel_make.3">
+								<img src="//3.f.ix.de/scale/geometry/308x170/q75//imgs/18/1/5/6/6/0/3/3/make_aufm-8efb689c1ab65d81.png" class="img-responsive" alt="Make 4/15 jetzt im heise-Shop bestellbar"/>
+								<p>Schwerpunkt Wearables: 10 Artikel verraten Ihnen alles über tragbare Elektronik und die neuesten Trends. Au�xerdem haben wir es⬦</p>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill="#999" d="M1938 450H60v1094h318.1v456l414.7-456H1938"/></svg>
+					<aside class="row channel channel_macandi" data-equal-max=".equal" aria-role="complementary" aria-label="Make">
+								<a href="/mac-and-i/" class="make-channel" name="ho.buehne.channel_macandi.cat_link">
+    <svg class="channel-logo apple mac-and-i" preserveAspectRatio="xMinYMin" xmlns="http://www.w3.org/2000/svg" viewBox="0 841.9 506.3 200"><path fill="#444" d="M97.9 993.4l6.9-46.7c1.8-12.3 4.4-27.9 7.6-44.2h-.5c-6.2 14.6-13.3 30.2-19.5 42.6l-23.2 46.3H50.3l-4-45.8c-1-12.4-1.8-28-2.5-43.1h-.3c-3.2 14.9-6.5 31.9-9.4 44.2l-11.2 46.7H.7L29 880.3h32.4l3.5 43c.7 10.6 1.8 23.5 2 36.1h.7c4.4-12.6 10.4-25.9 15.3-36.1l21-43h32.7l-15.3 113.2H97.9zM194 993.4c.2-4.9.7-10.4 1-16.3h-.3c-7.6 13.6-18.1 18.1-27.7 18.1-14.8 0-24.8-11.4-24.8-28.5 0-27.7 18.5-57.2 58.8-57.2 9.9 0 20.3 1.8 27.2 4l-8.6 43c-2 10.6-3.7 26.7-3.4 36.9H194zm6.9-64.9c-1.8-.3-4-.7-6.5-.7-15.6 0-27 19.1-27 34.4 0 8.1 3.2 13.6 9.9 13.6 7.2 0 16.1-8.2 20-28.4l3.6-18.9zM293.8 990.7c-5.2 2.5-13.6 4.4-23.3 4.4-20.3 0-34.6-12.4-34.6-33.6 0-29.2 22.3-52 53.6-52 7.1 0 13.1 1.3 16.8 2.7l-6 18.6c-2.9-1.2-6.2-2-11.1-2-17.1 0-27.9 14.6-27.9 30.1 0 11.2 7.2 17 16.1 17 7.1 0 12.1-1.7 16.3-3.4l.1 18.2zM399.4 993.4c-2.3-2.5-4-5-6-7.7-7.2 5.4-16.6 9.6-30.4 9.6-21.2 0-35.1-11.6-35.1-29.9 0-17.1 12.8-28 27.4-34.9l.2-.5c-3.5-5.9-6.2-12.3-6.2-19.1 0-18.3 14.4-32.4 35.4-32.4 17 0 28.7 10.1 28.7 25.2 0 13.1-9.9 22.8-28 31.2v.5c4.5 7.1 10.6 15.4 15.1 21.7 7.2-8.2 12.1-18.6 15.4-28.7h22.3c-6 17.3-13.9 31.9-26.7 44 4.4 6.4 10.1 13.8 16.5 21.2h-28.6zm-15.8-21.6c-5.7-7.4-13.4-18.1-20-28.4-5 3.7-11.1 9.4-11.1 17.8 0 8.7 5.9 15.9 17.3 15.9 6.1 0 10.5-2.3 13.8-5.3zm-12.7-63.5c0 5.2 1.8 9.9 5 14.1 8.7-4 15.9-10.2 15.9-18.6 0-5.2-2.9-9.7-9.4-9.7-6.5-.1-11.5 6.1-11.5 14.2zM461.1 993.4l15.6-82.1h24.2l-15.6 82.1h-24.2zm30.6-92.3c-6.7 0-11.6-4.7-11.6-11.8 0-8.2 6.5-13.8 13.9-13.8 7.2 0 12.3 4.7 12.3 11.9 0 8.6-6.5 13.6-14.3 13.6h-.3z"/></svg>
+							<a href="/meldung/iPhone-6s-Alle-bisher-bekannten-Details-2779675.html" name="ho.buehne.channel_macandi.1">
+							<a href="/meldung/iPhone-6s-Alle-bisher-bekannten-Details-2779675.html" class="article" name="ho.buehne.channel_macandi.1">
+								<img src="//2.f.ix.de/scale/geometry/308x170/q75//imgs/18/1/5/6/6/7/9/9/urn-newsml-dpa-com-20090101-140916-99-01427_large_4_3-8788dafa695bf858.jpeg" class="img-responsive" alt="iPhone 6"/>
+								<p>Wie immer tut Apple geheimnisvoll, doch die Zulieferer können nicht ihre Klappe halten. Dennoch bleibt Platz für �Sberraschungen.</p>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill-rule="evenodd" clip-rule="evenodd" fill="#999" d="M1773.2 400H224.8C101.1 400 0 501.1 0 624.8v750.7c0 123.6 101.1 224.8 224.8 224.8l1548.4-2.5c123.6 0 224.8-101.1 224.8-224.8V624.8c0-123.7-101.1-224.8-224.8-224.8z"/><path fill="#FFF" d="M881.7 700.9c-11.2-8-20.4-3.2-20.4 10.5v577.4c0 13.8 9.2 18.5 20.4 10.6l401.8-284.3c11.2-7.9 11.2-21 0-28.9L881.7 700.9z"/></svg>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill="#999" d="M1938 450H60v1094h318.1v456l414.7-456H1938"/></svg>
+							<a href="/mac-and-i/artikel/Ausprobiert-Apple-Music-2733071.html" name="ho.buehne.channel_macandi.2">
+							<a href="/mac-and-i/artikel/Ausprobiert-Apple-Music-2733071.html" class="article" name="ho.buehne.channel_macandi.2">
+								<img src="//2.f.ix.de/scale/geometry/308x170/q75//mac-and-i/imgs/65/1/5/3/9/5/5/1/urn-newsml-dpa-com-20090101-150629-99-10515_large_4_3-83a3b84568bb2824.jpeg" class="img-responsive" alt="Apple Music"/>
+								<p>Apple Music vereint Streaming, Radio, Künstler-Netzwerk und den Abgleich lokaler Musik � doch nicht für alles muss man zahlen.</p>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill="#999" d="M1938 450H60v1094h318.1v456l414.7-456H1938"/></svg>
+							<a href="/mac-and-i/artikel/Pro-Contra-Macht-Musik-Streaming-gluecklich-2763546.html" name="ho.buehne.channel_macandi.3">
+							<a href="/mac-and-i/artikel/Pro-Contra-Macht-Musik-Streaming-gluecklich-2763546.html" class="article" name="ho.buehne.channel_macandi.3">
+								<img src="//3.f.ix.de/scale/geometry/308x170/q75//mac-and-i/imgs/65/1/5/5/6/9/5/9/Pro_Contra-jra-jes-9fd589aca223059b.jpeg" class="img-responsive" alt=""/>
+								<p>Die CD- und Digitalkäufe gehen zurück. Gehört Streaming-Diensten wie Apple Music, Spotify, Rdio oder Tidal die Zukunft?</p>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill="#999" d="M1938 450H60v1094h318.1v456l414.7-456H1938"/></svg>
+					<aside class="row channel channel_ct" data-equal-max=".equal" aria-role="complementary" aria-label="Make">
+								<a href="/ct/" class="make-channel" name="ho.buehne.channel_ct.cat_link">
+    <svg class="channel-logo ct" preserveAspectRatio="xMinYMin" xmlns="http://www.w3.org/2000/svg" viewBox="0 841.9 270.1 200"><g fill="#2288C6"><path d="M125 841.9h46.3l-24.5 99.3h-23.2l13.7-55.8h-23l10.7-43.5M177.7 841.9H232l-12.4 50.3H270l-12 49h-50.5l-5.7 23.1s-1.7 5.8-1.1 9.5c.5 2.8 1.1 4.5 2.7 6.8 2 2.8 3.7 4.1 6.8 5.5 2.9 1.3 8.1 1.4 8.1 1.4h39.4l-13.4 54.4h-41.1c-36 .4-58.6-24.4-58.6-54.9 0-6.7 1.9-17.3 6-35.7l27.1-109.4z"/><path d="M93.8 892.2h35.3l-12 49H82.9c-13.7 0-28 14.3-28 27 0 7.2 3.6 19.2 15.4 19.2h57.5l-13.4 54.4h-56c-36.1.9-58.4-24.5-58.4-55 0-43.2 40.8-94.7 93.8-94.6z"/></g></svg>
+							<a href="/ct/artikel/Dolby-Cinema-HDR-Bild-und-Multikanal-Sound-sollen-ins-Kino-locken-2752166.html" name="ho.buehne.channel_ct.1">
+							<a href="/ct/artikel/Dolby-Cinema-HDR-Bild-und-Multikanal-Sound-sollen-ins-Kino-locken-2752166.html" class="article" name="ho.buehne.channel_ct.1">
+								<img src="//3.f.ix.de/scale/geometry/308x170/q75//ct/imgs/04/1/5/5/0/4/1/4/Dolby_Cinema-d57f726b7c32cf13.jpeg" class="img-responsive" alt="Dolby Cinema: HDR-Bild und Multikanal-Sound sollen ins Kino locken"/>
+								<p>Dolby Cinema ist ein Gesamtpaket aus Mehrkanal-Sound beeindruckenden Bildkontrasten und sorgfältig gestalteten Kinosälen. </p>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill-rule="evenodd" clip-rule="evenodd" fill="#999" d="M1773.2 400H224.8C101.1 400 0 501.1 0 624.8v750.7c0 123.6 101.1 224.8 224.8 224.8l1548.4-2.5c123.6 0 224.8-101.1 224.8-224.8V624.8c0-123.7-101.1-224.8-224.8-224.8z"/><path fill="#FFF" d="M881.7 700.9c-11.2-8-20.4-3.2-20.4 10.5v577.4c0 13.8 9.2 18.5 20.4 10.6l401.8-284.3c11.2-7.9 11.2-21 0-28.9L881.7 700.9z"/></svg>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill="#999" d="M1938 450H60v1094h318.1v456l414.7-456H1938"/></svg>
+							<a href="/ct/artikel/Gruenderinnen-in-Deutschland-Die-weibliche-Startup-Revolution-steht-noch-aus-2767974.html" name="ho.buehne.channel_ct.2">
+							<a href="/ct/artikel/Gruenderinnen-in-Deutschland-Die-weibliche-Startup-Revolution-steht-noch-aus-2767974.html" class="article" name="ho.buehne.channel_ct.2">
+								<img src="//3.f.ix.de/scale/geometry/308x170/q75//ct/imgs/04/1/5/5/9/8/8/9/Startups-1b31ba4df5928e0f.jpeg" class="img-responsive" alt="Gründerinnen in Deutschland: Die weibliche Startup-Revolution steht noch aus"/>
+								<p>Beim Zugang von Frauen zu Bildung und Internet steht Deutschland gut dar. Trotzdem ist nur jeder zehnte Gründer eine Gründerin.</p>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill="#999" d="M1938 450H60v1094h318.1v456l414.7-456H1938"/></svg>
+							<a href="/ct/artikel/Mit-dem-Smartphone-auf-Schlammparty-2772045.html" name="ho.buehne.channel_ct.3">
+							<a href="/ct/artikel/Mit-dem-Smartphone-auf-Schlammparty-2772045.html" class="article" name="ho.buehne.channel_ct.3">
+								<img src="//3.f.ix.de/scale/geometry/308x170/q75//ct/imgs/04/1/5/6/2/1/6/3/Smartphones_draussen-9c6611bafd9c5762.jpeg" class="img-responsive" alt="Mit dem Smartphone auf Schlammparty"/>
+								<p>Starker Regen, Pfützen und Schlamm schädigen das Smartphone. Ein paar Tipps zeigen, wie man sein Smartphone vor Wasser schützt⬦</p>
+											<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" viewBox="0 0 2000 2000"><path fill="#999" d="M1938 450H60v1094h318.1v456l414.7-456H1938"/></svg>
+								<a href="http://shop.heise.de/zeitschriften" name="ho.buehne.ho_hefte.shop_link">
+								<a class="magazine" href="http://shop.heise.de/zeitschriften/ct" name="ho.buehne.ho_hefte.1">
+										<img src="//1.f.ix.de/scale/geometry/140x200/q75//imgs/09/1/3/8/0/3/6/4/ct-2015-19-gross-46131f24c2c59864.jpeg" class="img-responsive" alt="19/15" />
+								<a href="http://shop.heise.de/zeitschriften/ct" class="btn btn-primary full" name="ho.buehne.ho_hefte.1">
+								<a class="magazine" href="http://shop.heise.de/zeitschriften/ix" name="ho.buehne.ho_hefte.2">
+										<img src="//3.f.ix.de/scale/geometry/140x200/q75//imgs/09/1/3/7/1/3/2/6/ix-2015-08-a7e66556302581fb.jpeg" class="img-responsive" alt="" />
+								<a href="http://shop.heise.de/zeitschriften/ix" class="btn btn-primary full" name="ho.buehne.ho_hefte.2">
+								<a class="magazine" href="http://shop.heise.de/zeitschriften/technology-review" name="ho.buehne.ho_hefte.3">
+										<img src="//1.f.ix.de/scale/geometry/140x200/q75//imgs/09/1/3/6/2/9/4/8/tr-2015-08-e5ab0371c76403e0.jpeg" class="img-responsive" alt="08/2015" />
+								<a href="http://shop.heise.de/zeitschriften/technology-review" class="btn btn-primary full" name="ho.buehne.ho_hefte.3">
+								<a class="magazine" href="http://shop.heise.de/zeitschriften/mac-i" name="ho.buehne.ho_hefte.4">
+										<img src="//1.f.ix.de/scale/geometry/140x200/q75//imgs/09/1/3/7/0/9/4/3/ctspecial-2015-04-Mac-and-i-5c42bf8abb453ccc.jpeg" class="img-responsive" alt="" />
+								<a href="http://shop.heise.de/zeitschriften/mac-i" class="btn btn-primary full" name="ho.buehne.ho_hefte.4">
+								<a class="magazine" href="http://shop.heise.de/zeitschriften/hardware-hacks" name="ho.buehne.ho_hefte.5">
+										<img src="//1.f.ix.de/scale/geometry/140x200/q75//imgs/09/1/3/7/1/1/8/3/make-2015-04-1e805324d17db6a3.jpeg" class="img-responsive" alt="" />
+								<a href="http://shop.heise.de/zeitschriften/hardware-hacks" class="btn btn-primary full" name="ho.buehne.ho_hefte.5">
+								<a class="magazine" href="http://shop.heise.de/zeitschriften/digitale-fotografie" name="ho.buehne.ho_hefte.6">
+										<img src="//1.f.ix.de/scale/geometry/140x200/q75//imgs/09/1/5/3/2/5/3/2/c-t-digitale-fotografie-4-2015-0665c93ff457e4ce.jpeg" class="img-responsive" alt="c't Digitale Fotografie 4/2015" />
+								<a href="http://shop.heise.de/zeitschriften/digitale-fotografie" class="btn btn-primary full" name="ho.buehne.ho_hefte.6">
+<a href="http://www.heise.de/mediadaten/online/" target="_blank" class="hinweis_anzeige">Anzeige</a><br><div id='div-gpt-ad-1882960792-3'>
+googletag.display("div-gpt-ad-1882960792-3");
+<noscript><div><a href="//pubads.g.doubleclick.net/gampad/jump?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=500x500&tile=3" target="_blank"><img alt="" src="//pubads.g.doubleclick.net/gampad/ad?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=500x500&tile=3" /></a></div></noscript>
+                <div class="bottom_up"><a href="/" name="ticker.ho.bottom.up"><span class="arrow"></span>nach oben</a></div>
+<div  class="bcadv ISI_IGNORE bcadv_oben"><a href="http://www.heise.de/mediadaten/online/" target="_blank" class="hinweis_anzeige">Anzeige</a><br><div id='div-gpt-ad-1882960792-4'>
+googletag.display("div-gpt-ad-1882960792-4");
+<noscript><div><a href="//pubads.g.doubleclick.net/gampad/jump?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=300x250%7C300x600%7C336x280&tile=4" target="_blank"><img alt="" src="//pubads.g.doubleclick.net/gampad/ad?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=300x250%7C300x600%7C336x280&tile=4" /></a></div></noscript>
+    <!-- tp_heise_all_incl_teaser_newsletter.html -->
+	<div id="teaser_newsletter_2014" class="ho medium" style="background-image: url(/imgs/02/1/2/5/5/4/2/0/newsletter_briefumschlag_ho_klein2-4b495d4dbd4ddf57.png);">
+		<p class="teaser_newsletter_copy">Die wichtigsten Meldungen 2 �S" wöchentlich.</p>
+<!-- tp_heise_all_incl_teaser_newsletter.html END -->
+                    <a href="/ct/ausgabe/2014-26-Social-Media-Buttons-datenschutzkonform-nutzen-2463330.html"  name="spalte.ho.teaser.rechts_2" >
+                        <img src="//1.f.ix.de/imgs/02/1/3/8/6/9/9/2/Shariff-5fc58c4ccad0be9e.jpeg" alt="" style="margin-bottom: 3px;" />
+                       <a href="/ct/ausgabe/2014-26-Social-Media-Buttons-datenschutzkonform-nutzen-2463330.html"  name="spalte.ho.teaser.rechts_2"  >
+                <span class="size80">Nur noch einen Klick erfordert unsere Weiterentwicklung der Zwei-Klick-Lösung zum sicheren Teilen per Button in sozialen Netzwerken.</span>
+                    <a href="/tp/artikel/45/45749/1.html"  name="spalte.ho.teaser.rechts_3" >
+                        <img src="//3.f.ix.de/imgs/02/6/6/5/7/4/9/politik-3b810e7b2c473982.gif" alt="Telepolis: Medien" style="margin-bottom: 3px;" />
+                       <a href="/tp/artikel/45/45749/1.html"  name="spalte.ho.teaser.rechts_3"  >
+                    <a href="/developer/artikel/Einfuehrung-in-das-Data-Mining-mit-R-und-Rattle-2776160.html"  name="spalte.ho.teaser.rechts_4" >
+                        <img src="//1.f.ix.de/imgs/02/3/9/7/2/2/5/thumb-88970ca807768b30.png" alt="Einführung in das Data Mining mit R und Rattle" style="margin-bottom: 3px;" />
+                       <a href="/developer/artikel/Einfuehrung-in-das-Data-Mining-mit-R-und-Rattle-2776160.html"  name="spalte.ho.teaser.rechts_4"  >
+                <span class="size80">Viele Unternehmen sammeln heute Daten, ohne wirklich zu wissen wofür. Data Mining ist eine der Disziplinen, die sich Datenmengen zunutze macht und hilft, Potenziale freizulegen.</span>
+            <a href="http://pubads.g.doubleclick.net/gampad/clk?id=33321470&amp;iu=/6514/www.heise.de/clicktracking/usAd" target="_blank"><img src="//1.f.ix.de/imgs/02/1/5/5/8/1/6/2/336x200_B-2df963fbd6685174.JPG" width="336" height="200" alt=""></a>
+                    var AVW = '<' + 'img id="avw_pixel_intern" src="/avw-bin/ivw/CP/barfoo/ho/2765355/0.gif?d=_ORD_" width="1" height="1" alt="">'.replace('_ORD_', Math.floor(Math.random()*1000000000)+1000000000);
+                    document.write(AVW);
+            <noscript><img id="avw_pixel_intern" src="/avw-bin/ivw/CP/barfoo/ho/2765355/0.gif" width="1" height="1" alt=""></noscript>
+            <li><a href="http://pubads.g.doubleclick.net/gampad/clk?id=29918270&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">Gutschein für Shirts, die nur echte Nerds verstehen</a></li>
+            <li><a href="http://pubads.g.doubleclick.net/gampad/clk?id=24937670&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">MittelstandsWiki: Themen für Unternehmen</a></li>
+            <li><a href="http://pubads.g.doubleclick.net/gampad/clk?id=33515630&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">Social Media Recht � darauf sollten Sie achten!</a></li>
+            <li><a href="http://pubads.g.doubleclick.net/gampad/clk?id=33430670&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">So gewinnen Sie den Wettlauf gegen Hacker!</a></li>
+            <li><a href="http://pubads.g.doubleclick.net/gampad/clk?id=33050030&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">Das Insider Portal � Fakten zu aktuellen IT-Themen</a></li>
+            <li><a href="http://pubads.g.doubleclick.net/gampad/clk?id=32346470&amp;iu=/6514/www.heise.de/clicktracking/textlink" rel="nofollow" target="_blank">Webcast: Hybrid Cloud mit VMware vCloud Air</a></li>
+    <header><a href="http://jobs.heise.de/" name="spalte.ho.jobs.logo">
+        <figure><img src="//1.f.ix.de/heisejobs/icons/jobs_logo.png"><figcaption>Der Stellenmarkt auf heise online.</figcaption></figure>
+    <li><a href="http://jobs.heise.de/Job/Senior-Solution-Specialist-m-w.21937961.html" name="spalte.ho.jobs.job1" target="heisejobs">
+    <li><a href="http://jobs.heise.de/Job/Softwareentwickler-SPS-m-w.21942221.html" name="spalte.ho.jobs.job2" target="heisejobs">
+    <li><a href="http://jobs.heise.de/Job/Projektleiter-Automotive-Software-m-w.21968211.html" name="spalte.ho.jobs.job3" target="heisejobs">
+                    <a href="/foto/galerie/fullscreen/?sort=beliebteste&amp;page=1"  name="spalte.ho.teaser.rechts_6" >
+                        <img src="//3.f.ix.de/imgs/02/1/0/6/2/4/8/5/Silver-1ff8f1f236050ff6.jpeg" alt="Nikon D7200 im Test" style="margin-bottom: 3px;" />
+                       <a href="/foto/galerie/fullscreen/?sort=beliebteste&amp;page=1"  name="spalte.ho.teaser.rechts_6"  >
+                <span class="size80">Die beliebtesten Bilder der heise Foto Galerie � ständig aktualisiert. Wenn auch Sie gute Bilder haben: Jeder angemeldete User kann 5 Fotos pro Tag freischalten. Einfach mal testen.</span>
+                    <a href="/autos/artikel/Klartext-Realitaetsabriss-im-Nitromethandampf-2776500.html"  name="spalte.ho.teaser.rechts_7" >
+                        <img src="//1.f.ix.de/imgs/02/3/9/8/2/9/6/IMG_2124-1dab0ad6dfa082b9.jpeg" alt="Klartext" style="margin-bottom: 3px;" />
+                       <a href="/autos/artikel/Klartext-Realitaetsabriss-im-Nitromethandampf-2776500.html"  name="spalte.ho.teaser.rechts_7"  >
+                    <a href="https://shop.heise.de/ct-wissen-raspberry-2015?pid=6001001173"  name="spalte.ho.teaser.rechts_9" >
+                        <img src="//2.f.ix.de/imgs/02/4/0/0/3/1/9/raspberry-pi-2-1d0e18ef36c7d05a.png" alt="" style="margin-bottom: 3px;" />
+                       <a href="https://shop.heise.de/ct-wissen-raspberry-2015?pid=6001001173"  name="spalte.ho.teaser.rechts_9"  >
+                <span class="size80">Vom einfach installierbaren Mediacenter über die Spielkonsole bis zum komplexen Programmierprojekt: in diesem Praxisratgeber finden Sie Basiswissen und unterschiedlich aufwenige Projekte für den Minirechner.</span>
+    $(document).ready( function() {
+        $('div#software_tabbox').tabs();
+    <h4><a href="http://www.heise.de/download/" title="heise Download" name="spalte.ho.teaser.download.head">heise Download</a></h4>
+	<a href="http://www.heise.de/download/special-der-deal-des-tages-152351.html" title="Deal des Tages von heise Download: 10 E-Books "Digitale Fotografie" - 93% billiger" name="spalte.ho.teaser.download.top"><img src="//www.heise.de/software/screenshots/sps2351.jpg" alt="Deal des Tages von heise Download: 10 E-Books "Digitale Fotografie" - 93% billiger" /></a>
+	<span class="titelzeile"><a href="http://www.heise.de/download/special-der-deal-des-tages-152351.html" title="Deal des Tages von heise Download: 10 E-Books "Digitale Fotografie" - 93% billiger" name="spalte.ho.teaser.download.top">10 E-Books "Digitale Fotografie" - <i><font color="red">93% billiger</font></i></a></span>
+	<span class="textzeile">Ein Muss f&uuml;r alle Fotografie-Fans! Heute gibt's exklusiv auf heise Download ein Bundle aus 10 E-Books mit 2.479 Seiten rund ums Thema "Digitale Fotografie" f&uuml;r nur 20 Euro. Alle B&uuml;cher sind als PDF-Datei verf&uuml;gbar.</span>
+		<a href="/download/windows-10-1195458.html" title="Windows 10 f&uuml;r Windows 7, 8, 10" name="spalte.ho.teaser.download.prg.Windows 10">Windows 10</a>
+		<span class="info">Betriebssystem von Microsoft, das am 29. Juli 2015 auf den Markt kommt; bietet den gewohnten Desktop mit Startmen&uuml;&nbsp;...</span>
+		<a href="/download/whatsapp-web-1195956.html" title="WhatsApp Web f&uuml;r Windows XP, Server 2003, Server 2008, Server 2012, Vista, 7, 8, 10, Mac OS X/Intel, Android, Blackberry" name="spalte.ho.teaser.download.prg.WhatsApp Web">WhatsApp Web</a>
+		<span class="info">Browser-Variante von WhatsApp f&uuml;r Google Chrome und Firefox.</span>
+		<a href="/download/truecrypt.html" title="TrueCrypt f&uuml;r Windows XP, Vista, 7, 8, 10, Linux, Mac OS X/PPC, Mac OS X/Intel" name="spalte.ho.teaser.download.prg.TrueCrypt">TrueCrypt</a>
+		<span class="info">Die aktuelle Version der Verschl&uuml;sselungs-Software TrueCrypt gilt als unsicher. Wir bieten daher weiterhin die Vorg&auml;ngerversion zum Download an.</span>
+		<a href="/download/firefox.html" title="Firefox f&uuml;r Windows XP, Server 2003, Server 2008, Server 2012, Vista, 7, 8, 10, Linux, Mac OS X/Intel, Android" name="spalte.ho.teaser.download.prg.Firefox">Firefox</a>
+		<span class="info">Firefox ist ein quelloffener Web-Browser, der sich &uuml;ber zahlreiche Add-ons stark erweitern l&auml;sst.</span>
+		<a href="/download/whatsapp-messenger.html" title="WhatsApp f&uuml;r iOS, Android, Blackberry, Symbian OS" name="spalte.ho.teaser.download.prg.WhatsApp">WhatsApp</a>
+		<a href="/download/adwcleaner-1191313.html" title="AdwCleaner f&uuml;r Windows XP, Vista, 7, 8, 10" name="spalte.ho.teaser.download.prg.AdwCleaner">AdwCleaner</a>
+		<span class="info">AdwCleaner ist ein schlankes Werkzeug, das st&ouml;rende und gef&auml;hrliche Software wie Adware, Toolbars und Hijacker auf dem Rechner findet und entfernt.</span>
+		<a href="/download/irfanview.html" title="IrfanView f&uuml;r Windows 2000, XP, Vista, 7, 8, 10" name="spalte.ho.teaser.download.prg.IrfanView">IrfanView</a>
+		<span class="info">IrfanView ist ein kostenloser Bildbetrachter, der Fotos und diverse andere Medien-Formate anzeigt und durch Plug-ins erweiterbar ist.</span>
+		<a href="/download/h2testw.html" title="H2testw f&uuml;r Windows 2000, XP, Server 2003, Server 2008, Vista, 7, 8, 10" name="spalte.ho.teaser.download.prg.H2testw">H2testw</a>
+		<span class="info">H2testw ist ein Kommandozeilen-Tool zum Testen von Zustand und Integrit&auml;t gro&szlig;formatiger Datentr&auml;ger.</span>
+		<a href="/download/truecrypt.html" title="TrueCrypt f&uuml;r Windows XP, Vista, 7, 8, 10, Linux, Mac OS X/PPC, Mac OS X/Intel" name="spalte.ho.teaser.download.prg.TrueCrypt">TrueCrypt</a>
+		<span class="info">Die aktuelle Version der Verschl&uuml;sselungs-Software TrueCrypt gilt als unsicher. Wir bieten daher weiterhin die Vorg&auml;ngerversion zum Download an.</span>
+		<a href="/download/ccleaner.html" title="CCleaner f&uuml;r Windows XP, Server 2003, Server 2008, Server 2012, Vista, 7, 8, 10, Mac OS X/Intel" name="spalte.ho.teaser.download.prg.CCleaner">CCleaner</a>
+		<span class="info">CCleaner erh&ouml;ht die System-Performance, indem es ungenutzte Dateien und Registry-Eintr&auml;ge entfernt.</span>
+	    <a href="http://www.heise.de/download/top-downloads-50000505000/" title="Alle Top-Downloads bei heise Download" name="spalte.ho.teaser.download.alle">Alle Top-Downloads</a>
+        $(document).ready( function() {
+            $('div#teaser_top_beitrag').tabs();
+                <li><a href="/meldung/15-Jahre-UMTS-Auktion-Nach-dem-grossen-Kater-2778571.html" name="spalte.ho.meistgelesen.1">15 Jahre UMTS-Auktion: Nach dem gro�xen Kater</a></li>
+                <li><a href="/meldung/Web-de-und-GMX-fuehren-PGP-Verschluesselung-fuer-Mail-ein-2786133.html" name="spalte.ho.meistgelesen.2">Web.de und GMX führen PGP-Verschlüsselung für Mail ein</a></li>
+                <li><a href="/meldung/Kehrtwende-bei-Mail-Sicherheit-Web-de-und-GMX-fuehren-DANE-ein-2782473.html" name="spalte.ho.meistgelesen.3">Kehrtwende bei Mail-Sicherheit: Web.de und GMX führen DANE ein</a></li>
+                <li><a href="/meldung/Russische-Aktivistin-outet-Putins-Troll-Fabrik-2784306.html" name="spalte.ho.meistgelesen.4">Russische Aktivistin outet Putins Troll-Fabrik</a></li>
+                <li><a href="/meldung/Googles-Smartphone-System-Android-M-heisst-Marshmallow-und-traegt-Nummer-6-0-2781833.html" name="spalte.ho.meistgelesen.5">Googles Smartphone-System: Android M hei�xt Marshmallow und trägt Nummer 6.0</a></li>
+                <li><a href="/meldung/Moege-der-Shitstorm-kommen-Prominente-helfen-Fluechtlingen-2786504.html">Möge der Shitstorm kommen � Prominente helfen Flüchtlingen</a></li>
+                <li><a href="/meldung/LiMux-Muenchner-CSU-will-auf-Laptops-von-Linux-zurueck-zu-Windows-2787042.html">LiMux: Münchner CSU will auf Laptops von Linux zurück zu Windows</a></li>
+                <li><a href="/meldung/Web-de-und-GMX-fuehren-PGP-Verschluesselung-fuer-Mail-ein-2786133.html">Web.de und GMX führen PGP-Verschlüsselung für Mail ein</a></li>
+                <li><a href="/meldung/Deutsche-Telekom-warnt-vor-Spam-Welle-2786008.html">Deutsche Telekom warnt vor Spam-Welle </a></li>
+                <li><a href="/meldung/Windows-10-Insider-Preview-Build-10525-verfuegbar-2785044.html">Windows 10: Insider Preview Build 10525 verfügbar</a></li>
+	<a href="http://www.fotoespresso.de/" rel="external" title="dpunkt.foto - Portal für Fotografie"><img src="//1.f.ix.de/icons/ho/dpunktfoto.gif" alt="dpunkt.foto - Portal für Fotografie" width="140" height="45" style="margin-left: 7px;" /></a>
+        <a href="http://www.seenby.de/" rel="external"><img src="//2.f.ix.de/icons/ho/seenby_logo.gif" alt="seenby Logo" width="150" height="41" style="margin-left: 7px;" /></a><br class="clear" />
+	<a title="MittelstandsWiki - Marktwirtschaft und Mittelstand" href="http://www.mittelstandswiki.de/" rel="external"><img src="//3.f.ix.de/icons/ho/mittelstandswiki.gif" alt="MittelstandsWiki - Marktwirtschaft und Mittelstand" width="280" height="30" /></a>
+        <a href="http://www.heise.de/preisvergleich/" title="Recherche und Preisvergleich Top 10" name="rms.ho.preisvergleich">
+	            <a href="http://www.heise.de/preisvergleich/a1290371.html" title="Intel Core i7-6700K" name="rms.ho.preisvergleich" class="top10 preisvergleich_top10_produkt">
+            <a class="preisvergleich_top10_preis" href="http://www.heise.de/preisvergleich/a1290371.html" title="Intel Core i7-6700K" name="rms.ho.preisvergleich">
+	            <a href="http://www.heise.de/preisvergleich/a1194261.html" title="Samsung SSD 850 EVO 250GB" name="rms.ho.preisvergleich" class="top10 preisvergleich_top10_produkt">
+            <a class="preisvergleich_top10_preis" href="http://www.heise.de/preisvergleich/a1194261.html" title="Samsung SSD 850 EVO 250GB" name="rms.ho.preisvergleich">
+	            <a href="http://www.heise.de/preisvergleich/a1290376.html" title="Intel Core i5-6600K" name="rms.ho.preisvergleich" class="top10 preisvergleich_top10_produkt">
+            <a class="preisvergleich_top10_preis" href="http://www.heise.de/preisvergleich/a1290376.html" title="Intel Core i5-6600K" name="rms.ho.preisvergleich">
+	            <a href="http://www.heise.de/preisvergleich/a1280763.html" title="Sapphire Radeon R9 390 Nitro" name="rms.ho.preisvergleich" class="top10 preisvergleich_top10_produkt">
+            <a class="preisvergleich_top10_preis" href="http://www.heise.de/preisvergleich/a1280763.html" title="Sapphire Radeon R9 390 Nitro" name="rms.ho.preisvergleich">
+	            <a href="http://www.heise.de/preisvergleich/a723497.html" title="Crucial Ballistix Sport DIMM Kit 8GB" name="rms.ho.preisvergleich" class="top10 preisvergleich_top10_produkt">
+            <a class="preisvergleich_top10_preis" href="http://www.heise.de/preisvergleich/a723497.html" title="Crucial Ballistix Sport DIMM Kit 8GB" name="rms.ho.preisvergleich">
+	            <a href="http://www.heise.de/preisvergleich/a1194263.html" title="Samsung SSD 850 EVO 500GB" name="rms.ho.preisvergleich" class="top10 preisvergleich_top10_produkt">
+            <a class="preisvergleich_top10_preis" href="http://www.heise.de/preisvergleich/a1194263.html" title="Samsung SSD 850 EVO 500GB" name="rms.ho.preisvergleich">
+	            <a href="http://www.heise.de/preisvergleich/a1050218.html" title="Intel Core i5-4460" name="rms.ho.preisvergleich" class="top10 preisvergleich_top10_produkt">
+            <a class="preisvergleich_top10_preis" href="http://www.heise.de/preisvergleich/a1050218.html" title="Intel Core i5-4460" name="rms.ho.preisvergleich">
+	            <a href="http://www.heise.de/preisvergleich/a1306324.html" title="ASUS Z170 Pro Gaming " name="rms.ho.preisvergleich" class="top10 preisvergleich_top10_produkt">
+            <a class="preisvergleich_top10_preis" href="http://www.heise.de/preisvergleich/a1306324.html" title="ASUS Z170 Pro Gaming " name="rms.ho.preisvergleich">
+	            <a href="http://www.heise.de/preisvergleich/a1215183.html" title="Crucial BX100 250GB" name="rms.ho.preisvergleich" class="top10 preisvergleich_top10_produkt">
+            <a class="preisvergleich_top10_preis" href="http://www.heise.de/preisvergleich/a1215183.html" title="Crucial BX100 250GB" name="rms.ho.preisvergleich">
+	            <a href="http://www.heise.de/preisvergleich/a739120.html" title="Crucial Ballistix Sport DIMM Kit 16GB" name="rms.ho.preisvergleich" class="top10 preisvergleich_top10_produkt">
+            <a class="preisvergleich_top10_preis" href="http://www.heise.de/preisvergleich/a739120.html" title="Crucial Ballistix Sport DIMM Kit 16GB" name="rms.ho.preisvergleich">
+<form method="get" action="http://www.heise.de/preisvergleich/" id="sform">
+            <a href="https://business-services.heise.de/it-management/cloud-computing/beitrag/so-profitiert-ihr-unternehmen-von-der-hybrid-cloud-2651.html?source=HBSad" target="_blank"><img src="//3.f.ix.de/imgs/02/1/3/8/9/4/8/4/alto_heise__vmware_hbsad_ondemand_20150702-89309a8b31c2052f.jpg" width="300" height="200" alt=""></a>
+            <a href="https://business-services.heise.de/it-management/cloud-computing/beitrag/bare-metal-server-vorteile-auswahlkriterien-leistungsmerkmale-2590.html?source=HBSad" target="_blank"><img src="//1.f.ix.de/imgs/02/1/3/8/9/4/8/4/alto_heise__leaseweb_hbsad_ondemand_20150617-6edf2efd084b77ab.jpg" width="300" height="200" alt=""></a>
+            <a href="https://business-services.heise.de/netze/voice-datenintegration/beitrag/skype-for-business-der-produktivitaetsturbo-fuer-ihr-unternehmen-2589.html?source=HBSad" target="_blank"><img src="//2.f.ix.de/imgs/02/1/3/8/9/4/8/4/alto_heise__hp_skype_hbsad_ondemand_20150410-8a2c8fe1f2110b4a.jpg" width="300" height="200" alt=""></a>
+                                    <iframe src="//static.getdigital.de/banner/slider/html/heise/heise2015.html" width="336" height="245" frameborder="0" scrolling="no" style="float:left;display:block;margin-right:0px;padding-right:0px;">
+                                        <a rel="nofollow" href="http://www.getDigital.de">getDigital - Gadgets für Geeks</a>
+                                    </iframe><a rel="nofollow" target="_blank" href="http://ad.doubleclick.net/N6514/clk;29917430;/6514/www.heise.de/clicktracking/stern_schatz/homepage-rect?http://www.getdigital.de/?her=heise2014-start" style="float:left;display:block;white-space:nowrap;"><img src="//static.getdigital.de/banner/slider/imagecache/heise2014/336x280/logo.jpg" height="34" width="" border="0"></a>
+                                    <iframe src="//tarifrechner.heise.de/widget.php?produkt=dsl" width="336" height="260" frameborder="0" scrolling="no" name="spalte.ho.teaser.verivox.dsl">
+                                        <a rel="nofollow" href="http://tarifrechner.heise.de">heise online Tarifrechner - DSL-Preisvergleich</a>
+                    <li><a href="/"                           title="heise online"            class="navi_oben_ho"    name="footer.ho.ho">heise online</a></li>
+                    <li><a href="/ct/"                        title="c't"                     class="navi_oben_ct"    name="footer.ho.ct">c't Magazin</a></li>
+                    <li><a href="/ix/"                        title="iX"                      class="navi_oben_ix"    name="footer.ho.ix">iX Magazin</a></li>
+                    <li><a href="/tr/"                        title="Technology Review"       class="navi_oben_tr"    name="footer.ho.tr">Technology&nbsp;Review</a></li>
+                    <li><a href="/mac-and-i/"                 title="Mac &amp; i"             class="navi_oben_mac"   name="footer.ho.mac-and-i">Mac &amp; i</a></li>
+                    <li><a href="/tp/"                        title="Telepolis"               class="navi_oben_tp"    name="footer.ho.tp">Telepolis</a></li>
+                    <li><a href="/make/"                   title="Make"               class="navi_oben_hh"    name="footer.ho.make">Make</a></li>
+                    <li><a href="/foto/inhalt/"               title="Digitale Fotografie"     class="navi_oben_df"    name="footer.ho.digitale-fotografie">Digitale Fotografie</a></li>
+                    <li><a href="/autos/"                     title="heise Autos"             class="navi_oben_aut"    name="footer.ho.autos" >heise Autos</a></li>
+                    <li><a href="/developer/"                 title="heise Developer"         class="navi_oben_dev"    name="footer.ho.developer">heise Developer</a></li>
+                    <li><a href="/foto/"                      title="heise Foto"              class="navi_oben_foto"   name="footer.ho.foto">heise Foto</a></li>
+                    <li><a href="/netze/"                     title="heise Netze"             class="navi_oben_net"    name="footer.ho.netze">heise Netze</a></li>
+                    <li><a href="/open/"                      title="heise Open Source"       class="navi_oben_op"     name="footer.ho.open">Open Source</a></li>
+                    <li><a href="/security/"                  title="heise Security"          class="navi_oben_sec"    name="footer.ho.security">heise Security</a></li>
+                    <li><a href="/video/"                     title="heise Video"             class="navi_oben_video"  name="footer.ho.video">heise Video</a></li>
+                    <li><a href="http://www.techstage.de/"    title="TechStage"               class="navi_oben_tech"   name="footer.ho.techstage">TechStage</a></li>
+                    <li><a href="/download/"                  title="Software-Verzeichnis"    class="navi_oben_swv"    name="footer.ho.download">Download</a></li>
+                    <li><a href="/preisvergleich/"            title="Preisvergleich"          class="navi_oben_pvg"    name="footer.ho.preisvergleich">Preisvergleich</a></li>
+                    <li><a href="/jobs/"                      title="heise jobs"              class="navi_oben_job"    name="footer.ho.jobs">Stellenmarkt</a></li>
+                    <li><a href="/events/"                    title="heise Events"            class="navi_oben_eve"    name="footer.ho.events">Veranstaltungen</a></li>
+                    <li><a href="/itmarkt/"                   title="IT-Markt"                class="navi_oben_itm"    name="footer.ho.itmarkt">IT-Markt</a></li>
+                    <li><a href="http://business-services.heise.de/"               title="heise Business Services"       class="navi_oben_whi"    name="footer.ho.hbs">heise Business Services</a></li>
+                    <li><a href="http://tarifrechner.heise.de/" title="Tarifrechner"          class="navi_oben_tarifr" name="footer.ho.tarifrechner">Tarifrechner</a></li>
+                    <li><a href="http://shop.heise.de/"       title="heise-shop"              class="navi_oben_shop"   name="footer.ho.shop">Shop</a></li>
+                    <li><a href="/artikel-archiv/"            title="Artikel-Archiv"          class="navi_oben_kio"    name="footer.ho.artikel-archiv">Artikel-Archiv</a></li>
+                    <li><a href="https://abo.heise.de/"       title="Zeitschriften-Abo"       class="navi_oben_abo"    name="footer.ho.abo">Abo</a></li>
+                    <li><a href="/loseblattwerke/"            title="Loseblattwerke"                                   name="footer.ho.loseblattwerke">Loseblattwerke</a></li>
+                    <li><a href="/news-extern/news.html"   title="RSS"                name="footer.ho.rss">RSS</a></li>
+                    <li><a href="/forum/"                     title="Leserforum"                                       name="footer.ho.forum">Leserforum</a></li>
+                    <li><a href="/newsletter/"                title="Newsletter"                                       name="footer.ho.newsletter">Newsletter</a></li>
+                    <li><a href="/suche/"                     title="Suche"                                            name="footer.ho.suche">Suche</a></li>
+                    <li><a href="/netze/netzwerk-tools/imonitor-internet-stoerungen/"       title="iMonitor � Internet-Störungen" name="footer.ho.imonitor">iMonitor</a></li>
+googletag.display("div-gpt-ad-1882960792-5");
+<noscript><div><a href="//pubads.g.doubleclick.net/gampad/jump?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=468x60%7C728x90%7C970x250&tile=5" target="_blank"><img alt="" src="//pubads.g.doubleclick.net/gampad/ad?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=468x60%7C728x90%7C970x250&tile=5" /></a></div></noscript>
+googletag.display("div-gpt-ad-1882960792-6");
+<noscript><div><a href="//pubads.g.doubleclick.net/gampad/jump?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=160x600%7C200x800&tile=6" target="_blank"><img alt="" src="//pubads.g.doubleclick.net/gampad/ad?iu=%2F6514%2Fwww.heise.de%2Fhomepage%2F&c=1882960792&sz=160x600%7C200x800&tile=6" /></a></div></noscript>
+    iom.c(iam_data);
+<!-- Webtrekk 3.2.2, (c) www.webtrekk.com -->
+    <script type="text/javascript" src="/js/ho/webtrekk-v3-bundle-heise-2013-01-21.js"></script>
+        contentId: "www.heise.de.startseite.startseite"
+    wt.contentGroup = {};
+    wt.contentGroup['1']  = "www.heise.de";
+    wt.contentGroup['2']  = "startseite";
+    wt.contentGroup['3']  = "startseite";
+    wt.contentGroup['9']  = "startseite";
+    wt.contentGroup['10'] = "startseite";
+    wt.heatmapRefpoint = 'container_content';
+    wt.sendinfo();
+    <noscript><div><img src="//prophet.heise.de/288689636920174/wt.pl?p=322,www.heise.de.startseite.startseite&cg1=www.heise.de&cg10=startseite&cg2=startseite&cg3=startseite&cg9=startseite" height="1" width="1" alt="" /></div></noscript>
+        var path    = window.location.pathname;
+        var section = path.split('/')[1] || 'homepage';
+    _sf_async_config.uid = 59838;
+    _sf_async_config.domain = 'heise.de';
+    _sf_async_config.useCanonical = false;
+    _sf_async_config.path = window.location.pathname;
+    _sf_async_config.sections = _heise_sf_section_from_pathname();
+    _sf_async_config.authors = 'die Redaktionen';
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src', '//static.chartbeat.com/js/chartbeat_video.js');
+        document.body.appendChild(e);
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+		<li class="left"><a href="/Privacy-Policy-der-Heise-Medien-GmbH-Co-KG-4860.html">Datenschutzhinweis</a> </li>
+		<li class="left"><a href="/impressum.html">Impressum</a> </li>
+		<li class="left"><a href="http://m.heise.de/">News mobil</a></li>
+        <li class="right"><a href="http://www.interred.de/" rel="external" style="margin-right: 0;">Content Management</a> by <b style="margin-right: 0.5em;">Inter<span class="tx_red">Red</span></b></li>
+		<li class="right"><a href="http://www.plusline.de/">Hosted by Plus.line</a> </li>
+		<li class="right"><a href="http://www.heise-medien.de/">Copyright © 2015 Heise Medien</a> </li>
+<script src="/js/heise.min.js"></script>
+<script src="/js/suche/suche.js" type="text/javascript"></script>
+<!-- Created with InterRed V15.4-x.x.x.x.4, http://www.interred.de/, by InterRed GmbH -->
