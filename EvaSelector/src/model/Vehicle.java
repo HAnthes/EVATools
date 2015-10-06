@@ -2734,5 +2734,7 @@ public class Vehicle implements Serializable {
 
 		return fextra;
 	}
-
+	public String toString(){
+		return ToStringVehicle.getstr(this);
+	}
 }

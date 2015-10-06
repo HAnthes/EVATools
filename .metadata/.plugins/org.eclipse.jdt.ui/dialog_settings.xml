@@ -50,16 +50,16 @@
 	</section>
 	<section name="FatJarPackageWizard">
 		<item value="D:\JavaDevWP" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="Server - EvaExportServer" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="\\10.57.109.95\public\EVA-Server.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="FXTable - EvaSelector" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="d:\evaviewer.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="d:\evaviewer.jar"/>
 			<item value="\\10.57.109.95\public\EVA-Server.jar"/>
 			<item value="D:\Server\EVA-Server.jar"/>
 			<item value="D:\EVA-Client\EVA-Client.jar"/>
 			<item value="D:\Server\EVA-Sever.jar"/>
-			<item value="D:\EVA-Client.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
 			<item value="D:\JavaDevWP.xml"/>

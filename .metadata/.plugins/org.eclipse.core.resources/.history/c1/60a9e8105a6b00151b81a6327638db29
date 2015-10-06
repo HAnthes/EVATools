@@ -1,0 +1,16 @@
+package model;
+
+public class ToStringVehicle {
+
+	public static String getstr(Vehicle m){
+		String temp = "";
+		
+		temp += "GW-Nr. : "+ m.getOrderNo() + "-" +m.getVehicleNo() +"\n \n";
+		temp += m.getText1() + " " + m.getText2() + " " + m.getDesignDesc() + "\n \n";
+		temp += "EZ.: " + m.getRegdate().toString();
+		
+		return temp;
+		
+	}
+	
+}

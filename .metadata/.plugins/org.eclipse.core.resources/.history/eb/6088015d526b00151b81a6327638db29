@@ -1,0 +1,89 @@
+package fxTableView;
+
+import controller.EvaDB;
+import model.Vehicle;
+import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.event.EventHandler;
+import javafx.geometry.Insets;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
+import javafx.stage.Stage;
+ 
+public class FXTable extends Application {
+ 
+    private TableView<Vehicle> table = new TableView<Vehicle>();
+    private final ObservableList<Vehicle> data= FXCollections.observableArrayList(EvaDB.getCars());
+    
+    public static void main(String[] args) {
+        launch(args);
+    }
+    
+    public void init(){
+    	
+    }
+    
+    
+    public void start(Stage stage) {
+        Scene scene = new Scene(new Group());
+        stage.setTitle("EVA-View");
+        stage.setWidth(640);
+        stage.setHeight(500);
+ 
+        table.setEditable(false);
+ 
+       
+        TableColumn<Vehicle, String> orderNo = new TableColumn<Vehicle, String>("EVA-ID");
+        orderNo.setMinWidth(80);
+        orderNo.setCellValueFactory(new PropertyValueFactory<Vehicle, String>("vehicleNo"));
+        
+        TableColumn<Vehicle, String> text1 = new TableColumn<Vehicle, String>("Marke");
+        text1.setMinWidth(50);
+        text1.setCellValueFactory(new PropertyValueFactory<Vehicle, String>("text1"));
+        
+        TableColumn<Vehicle, String> text2 = new TableColumn<Vehicle, String>("Model");
+        text2.setMinWidth(50);
+        text2.setCellValueFactory(new PropertyValueFactory<Vehicle, String>("text2"));
+        
+        table.setItems(data);
+         
+        table.setOnMouseClicked(new EventHandler<MouseEvent>(){
+
+			@Override
+			public void handle(MouseEvent arg0) {
+				 System.out.println(table.getSelectionModel().getSelectedItem());
+			}
+        	
+        });
+         
+        table.getColumns().addAll(orderNo, text1, text2);
+        
+               
+        TextArea fzview = new TextArea();
+     
+        BorderPane pb = new BorderPane();
+        HBox hb = new HBox();
+        hb.setPadding(new Insets(10, 0, 0, 10));
+        hb.getChildren().addAll(table);
+        pb.setLeft(hb);
+        HBox vb = new HBox();
+        vb.setPadding(new Insets(10, 0, 0, 10));
+        vb.getChildren().addAll(fzview);
+        pb.setCenter(vb);
+        ((Group) scene.getRoot()).getChildren().addAll(pb);
+ 
+        stage.setScene(scene);
+        stage.show();
+    }
+}
