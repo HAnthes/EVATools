@@ -27,16 +27,16 @@ public class EvaDB {
 		EntityManagerFactory ef = Persistence.createEntityManagerFactory(PU);
 		EntityManager em = ef.createEntityManager();
 
-		String query = "SELECT l from Vehicle l where (((l.doPublishData)=1) AND ((l.vehSysType)=1) AND ((l.isused)=1) AND ((l.reserveState)is NULL) AND ((l.baseVehicleNo)is NULL) AND ((l.purdate)is NULL) OR ((l.doPublishData)=1) AND ((l.vehSysType)=1) AND ((l.isused)=1) AND ((l.reserveState)=0) AND ((l.baseVehicleNo)is NULL)  AND ((l.purdate)is NULL) OR ((l.doPublishData)=1) AND ((l.vehSysType)=1) AND ((l.isused)=1) AND ((l.reserveState)=1) AND ((l.baseVehicleNo)is NULL) AND ((l.purdate)is NULL)) ORDER BY l.orderNo ";
+		String query = "SELECT l from Vehicle l where (((l.vehSysType)=1)) ORDER BY l.dateCreated DESC";
 
 		TypedQuery<Vehicle> car = em.createQuery(query, model.Vehicle.class);
 
 		cars = car.getResultList();
 		
-		TypedQuery<VehicleOptionCategory> evo = em.createNamedQuery("VehicleOptionCategory.findAll", model.VehicleOptionCategory.class);
+/*		TypedQuery<VehicleOptionCategory> evo = em.createNamedQuery("VehicleOptionCategory.findAll", model.VehicleOptionCategory.class);
 		
 		evoOptions =  evo.getResultList();
-		
+	*/	
 		em.close();
 		ef.close();
 	}
@@ -44,6 +44,7 @@ public class EvaDB {
 	
 	public static List<Vehicle> getCars() {
 		getVehicles();
+		System.out.println(cars.size());
 		return cars;
 	}
 	

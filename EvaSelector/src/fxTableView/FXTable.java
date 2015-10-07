@@ -42,25 +42,25 @@ public class FXTable extends Application {
 	public void start(Stage stage) {
         Scene scene = new Scene(new Group());
         stage.setTitle("EVA-View");
-       
+        
         TextArea fzview = new TextArea();
         table.setEditable(false);
  
        
-        TableColumn<Vehicle, String> orderNo = new TableColumn<Vehicle, String>("EVA-ID");
+        TableColumn<Vehicle, String> orderNo = new TableColumn<Vehicle, String>("FIN");
         orderNo.setMinWidth(80);
-        orderNo.setCellValueFactory(new PropertyValueFactory<Vehicle, String>("vehicleNo"));
+        orderNo.setCellValueFactory(new PropertyValueFactory<Vehicle, String>("chassisno"));
         
         TableColumn<Vehicle, String> gwNo = new TableColumn<Vehicle, String>("GW-ID");
         gwNo.setMinWidth(80);
         gwNo.setCellValueFactory(new PropertyValueFactory<Vehicle, String>("orderNo"));
         
         TableColumn<Vehicle, String> text1 = new TableColumn<Vehicle, String>("Marke");
-        text1.setMinWidth(50);
+        text1.setMinWidth(80);
         text1.setCellValueFactory(new PropertyValueFactory<Vehicle, String>("text1"));
         
         TableColumn<Vehicle, String> text2 = new TableColumn<Vehicle, String>("Model");
-        text2.setMinWidth(50);
+        text2.setMinWidth(80);
         text2.setCellValueFactory(new PropertyValueFactory<Vehicle, String>("text2"));
         
         
@@ -93,7 +93,7 @@ public class FXTable extends Application {
         slider.setBlockIncrement(20);
         
         BorderPane pb = new BorderPane();
-        
+        pb.setPrefWidth(1000);
         HBox sb = new HBox();
         sb.setPadding(new Insets(10, 0,0, 10));
         sb.getChildren().addAll(slider);
@@ -111,7 +111,7 @@ public class FXTable extends Application {
     		  
     		   if (vehicle.getOrderNo().toLowerCase().contains(lowerCaseFilter)) {
                    return true; // Filter matches first name.
-               } else if (vehicle.getOrderNo().toLowerCase().contains(lowerCaseFilter)) {
+               } else if (vehicle.getChassisno().toLowerCase().contains(lowerCaseFilter)) {
                    return true; // Filter matches last name.
                }
                return false; // Does not match.
@@ -127,7 +127,7 @@ public class FXTable extends Application {
         fb.getChildren().addAll(filterField);
         pb.setTop(fb);
    
-        
+        table.setPrefWidth(440);
         HBox hb = new HBox();
         hb.setPadding(new Insets(10, 0,0, 10));
         hb.getChildren().addAll(table);
