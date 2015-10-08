@@ -1,0 +1,11 @@
+Aufbau Bilder
+
+Basis ist Background, kann skalierd und verschoben werden. Ist das erst Bild aus der der EVA Mediabibilothek ab der Start ID
+Template eine PNG Datei die über den Background gelegt wird.
+Bilder der Entity Collage liegen über dem Template, größe und position werden angegeben.
+
+XML mit Collage Infos erzeugen ein Ausgangsbild aus einem Satz EVA Bilder. Sind keine Bilder zum erzeugen einer Collage
+vorhanden wird das Fallbackbild kopiert.
+
+XML ohne Collage bearbeiten alle Bilder der EVA Bilder und setzen den Index ab Start ID
+Fehlt Collage mussen Fillerbilder angebeben werden die an das Ende der Bilder anfügt werden - bis zu max angabe

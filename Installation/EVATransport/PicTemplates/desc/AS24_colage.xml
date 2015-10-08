@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bilder>
+	<!-- output path = Zielordner für die neu erzeugten Bilder -->
+	<output path="C:\EVATransport\Work\as24" />
+	<!-- start id, legt den Index fest mit dem begonnen werden soll ... 1 wäre bild_1.jpg -->
+	<start id="1" />
+	<!-- template beschreibt das Zwischenbild (Docu Aufbau Bilder) mit Bilddatei, Größe und Position - die Größe gibt auch die die größe des Outputbildes an -->
+	<template name="C:\EVATransport\PicTemplates\png\mobile4seite.png" w="1024" h="768" x="0" y="0" />
+	<!-- background bestimmt die größe des "ersten" Bildes der Collage(Docu Aufbau Bilder) -->
+	<background w="1024" h="768" x="0" y="0" />
+	<!-- collage fallback beschreibt ein Bild falls keine Quellbilder vorhanden sind -->
+	<collage fallback="C:\EVATransport\PicTemplates\fill\nopic.jpg">
+		<!-- Bilder die in die Collage eingefügt werden mit größe und position -->
+		<bild w="202" h="152" x="810" y="15" />
+		<bild w="202" h="152" x="810" y="182" />
+		<bild w="202" h="152" x="810" y="364" />
+		<bild w="202" h="152" x="810" y="546" />
+	</collage>
+</bilder>

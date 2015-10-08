@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bilder>
+	<output path="C:\EVATransport\Work\Hoba\banner" />
+	<start id="1" />
+	<template name="C:\EVATransport\PicTemplates\png\banner.png" w="662" h="330" x="0" y="0" />
+	<background w="441" h="330" x="0" y="0" />  
+	<collage>
+	<bild w="221" h="165" x="441" y="0" />
+	<bild w="221" h="165" x="441" y="165" />
+	</collage>
+</bilder>

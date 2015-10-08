@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bilder>
+	<output path="C:\EVATransport\Work\mobile" />
+	<start id="2" />
+	<template name="C:\EVATransport\PicTemplates\png\textunten.png" w="1024" h="768" x="0" y="0" />
+	<background w="1024" h="768" x="0" y="0" />
+	<!-- Fügt Bilder nach dem Ende der Quellbilder ein bis max -->
+	<fill max="15">
+		<pic name="C:\EVATransport\PicTemplates\fill\fill_1.jpg" />
+		<pic name="C:\EVATransport\PicTemplates\fill\fill_2.jpg" />
+	</fill>
+</bilder>

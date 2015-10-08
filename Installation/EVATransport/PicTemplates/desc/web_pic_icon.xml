@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bilder>
+	<output path="C:\EVATransport\Work\Hoba\icon" />
+	<start id="1" />
+	<template name="C:\EVATransport\PicTemplates\png\textunten.png" w="133" h="100" x="0" y="0" />
+	<background w="133" h="100" x="0" y="0" />
+</bilder>

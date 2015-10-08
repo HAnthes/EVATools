@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bilder>
+	<output path="C:\EVATransport\Work\mobile" />
+	<start id="1" />
+	<template name="C:\EVATransport\PicTemplates\png\mobile4seite.png" w="1024" h="768" x="0" y="0" />
+	<background w="1024" h="768" x="0" y="0" />
+	<collage fallback="C:\EVATransport\PicTemplates\fill\nopic.jpg">
+	<bild w="202" h="152" x="810" y="15" />
+	<bild w="202" h="152" x="810" y="182" />
+	<bild w="202" h="152" x="810" y="364" />
+	<bild w="202" h="152" x="810" y="546" />
+	</collage>
+</bilder>

@@ -1,0 +1,3 @@
+exportserver
+Server läuft
+Register
