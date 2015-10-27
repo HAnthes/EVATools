@@ -26,28 +26,38 @@ import controller.EvaDB;
  
 public class FXTable extends Application {
  
-    private TableView<Vehicle> table = new TableView<Vehicle>();
-    private final ObservableList<Vehicle> data= FXCollections.observableArrayList(EvaDB.getCars());
+   
     
     public static void main(String[] args) {
         launch(args);
     }
     
     public void init(){
-    	
+    /*
+     * ini vor dem stageing nich nicht verwendet.
+     * 	
+     */
     }
     
     
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings("unchecked") //untypisierst Liste?? Warum
+    /*
+     * Alle in einer Methode - grobes konzept.
+     * (non-Javadoc)
+     * @see javafx.application.Application#start(javafx.stage.Stage)
+     */
 	public void start(Stage stage) {
-        Scene scene = new Scene(new Group());
-        stage.setTitle("EVA-View");
+    	
+    	TableView<Vehicle> table = new TableView<Vehicle>();
+    	final ObservableList<Vehicle> data= FXCollections.observableArrayList(EvaDB.getCars());
         
-        TextArea fzview = new TextArea();
+    	/*
+    	 * Tableview aufbauen 
+    	 */
         table.setEditable(false);
  
        
-        TableColumn<Vehicle, String> orderNo = new TableColumn<Vehicle, String>("FIN");
+        TableColumn<Vehicle, String> orderNo = new TableColumn<Vehicle, String>("VIN");
         orderNo.setMinWidth(80);
         orderNo.setCellValueFactory(new PropertyValueFactory<Vehicle, String>("chassisno"));
         
@@ -66,7 +76,11 @@ public class FXTable extends Application {
         
         FilteredList<Vehicle> fData = new FilteredList<Vehicle>(data, p-> true);
         
-        
+        /*
+         * Textfeld für das Anzeigen der FZG Ausstattung
+         */
+        TextArea fzview = new TextArea();
+            
         
         table.setItems(data);
          
@@ -121,6 +135,11 @@ public class FXTable extends Application {
       SortedList<Vehicle> sData = new SortedList<>(fData);
       sData.comparatorProperty().bind(table.comparatorProperty());
       table.setItems(sData);
+      
+      Scene scene = new Scene(new Group());
+      stage.setTitle("EVA-View");
+      
+     
       
         HBox fb = new HBox();
         fb.setPadding(new Insets(10, 0,0, 10));

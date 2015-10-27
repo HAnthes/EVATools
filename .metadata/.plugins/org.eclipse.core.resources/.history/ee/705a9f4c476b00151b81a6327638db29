@@ -1,9 +1,0 @@
-package view;
-
-import model.Vehicle;
-import javafx.scene.control.TableView;
-i
-
-public class Table extends TableView<S> {
-
-}
