@@ -47,7 +47,7 @@ public class EvaFormater {
 
 
 	private String getstr(Vehicle m, int size){
-		if(m==null) return "Kein Auto gewählt.";
+		if(m==null) return "Kein FZ seletkriert";
 		String temp = "";
 		if(size>1){
 		temp += "GW-Nr. : "+ m.getOrderNo() + "-" +m.getVehicleNo() +"\n \n";

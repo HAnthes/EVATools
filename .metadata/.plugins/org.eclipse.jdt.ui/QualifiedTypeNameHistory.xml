@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="util.ServerSetup"/>
-<fullyQualifiedTypeName name="java.net.InetAddress"/>
-<fullyQualifiedTypeName name="java.net.Inet6Address"/>
-<fullyQualifiedTypeName name="java.net.Inet4Address"/>
-<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
-<fullyQualifiedTypeName name="csvModel.CSVAutoscout"/>
-<fullyQualifiedTypeName name="server.PrinterInterface"/>
-<fullyQualifiedTypeName name="server.Sysout"/>
-<fullyQualifiedTypeName name="csvModel.CSVAutoscout_o"/>
-<fullyQualifiedTypeName name="csvModel.ICSVString"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
@@ -60,4 +50,14 @@
 <fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
 <fullyQualifiedTypeName name="model.Vehicle"/>
 <fullyQualifiedTypeName name="fxTableView.EvaFormater"/>
+<fullyQualifiedTypeName name="javafx.beans.value.ChangeListener"/>
+<fullyQualifiedTypeName name="fxTableView.ToStringVehicle"/>
+<fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
+<fullyQualifiedTypeName name="javafx.scene.control.ProgressBar"/>
+<fullyQualifiedTypeName name="javafx.scene.control.Label"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.VBox"/>
+<fullyQualifiedTypeName name="javafx.scene.effect.DropShadow"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.Pane"/>
+<fullyQualifiedTypeName name="javafx.scene.image.Image"/>
+<fullyQualifiedTypeName name="javafx.geometry.Pos"/>
 </qualifiedTypeNameHistroy>

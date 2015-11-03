@@ -1,5 +1,7 @@
 package fxTableView;
 
+
+
 import javafx.application.Application;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -9,35 +11,36 @@ import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
-import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.effect.DropShadow;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import model.Vehicle;
 import controller.EvaDB;
  
 public class FXTable extends Application {
-	   
+ 
+   
+    
     public static void main(String[] args) {
         launch(args);
     }
-        
+    
+    public void init(){
+    /*
+     * ini vor dem stageing nich nicht verwendet.
+     * 	
+     */
+    }
+    
     
     @SuppressWarnings("unchecked") //untypisierst Liste?? Warum
     /*
@@ -46,7 +49,6 @@ public class FXTable extends Application {
      * @see javafx.application.Application#start(javafx.stage.Stage)
      */
 	public void start(Stage stage) {
-    
     	
     	TableView<Vehicle> table = new TableView<Vehicle>();
     
@@ -79,7 +81,6 @@ public class FXTable extends Application {
         
         /*
          * Textfeld für das Anzeigen der FZG Ausstattung
-         * und Slider für die textausgabe der Auto's
          */
         
         Slider slider = new Slider();
@@ -93,9 +94,7 @@ public class FXTable extends Application {
         
         TextArea fzview = new TextArea();
     	EvaFormater ef = new EvaFormater(fzview,47);    
-    	/*
-    	 * Changelistner für den Slider und int für den EvaFormater
-    	 */
+    	
         slider.valueProperty().addListener(new ChangeListener<Number>() {
             public void changed(ObservableValue<? extends Number> ov,
                 Number old_val, Number new_val) {
@@ -104,14 +103,9 @@ public class FXTable extends Application {
         });
         
         
-        /*
-         * Daten an die Tabelle binden
-         */
-        table.setItems(data);
         
-        /*
-         * Eventhandler für den Klick auf eine Tabellenzeile
-         */
+        table.setItems(data);
+         
         table.setOnMouseClicked(new EventHandler<MouseEvent>(){
 
 			@Override
@@ -123,29 +117,25 @@ public class FXTable extends Application {
          
         table.getColumns().addAll(orderNo,gwNo, text1, text2);
         
-        /*
-         * Layout festlegen        
-         */
+        
+        
         BorderPane pb = new BorderPane();
         pb.setPrefWidth(1000);
         HBox sb = new HBox();
         sb.setPadding(new Insets(10, 0,0, 10));
         sb.getChildren().addAll(slider);
         pb.setBottom(sb);
-        TextField filterField = new TextField();
+   
         
-        /*
-         * definitiion des Filterfeldes
-         */
-        filterField.textProperty().addListener((observable, oldValue, newValue) -> {
+      TextField filterField = new TextField();
+        
+      filterField.textProperty().addListener((observable, oldValue, newValue) -> {
     	  fData.setPredicate(vehicle -> {
     		  if (newValue == null || newValue.isEmpty()) {
                   return true;
               }
     		  String lowerCaseFilter = newValue.toLowerCase();
-    		  /*
-    		   * filtern nach FZ ID und GW-Nr.
-    		   */
+    		  
     		   if (vehicle.getOrderNo().toLowerCase().contains(lowerCaseFilter)) {
                    return true; // Filter matches first name.
                } else if (vehicle.getChassisno().toLowerCase().contains(lowerCaseFilter)) {
@@ -161,15 +151,19 @@ public class FXTable extends Application {
       
       Scene scene = new Scene(new Group());
       stage.setTitle("EVA-View");
-      HBox fb = new HBox();
-      fb.setPadding(new Insets(10, 0,0, 10));
-      fb.getChildren().addAll(filterField);
-      pb.setTop(fb);
-      table.setPrefWidth(440);
-      HBox hb = new HBox();
-      hb.setPadding(new Insets(10, 0,0, 10));
-      hb.getChildren().addAll(table);
-      pb.setLeft(hb);
+      
+     
+      
+        HBox fb = new HBox();
+        fb.setPadding(new Insets(10, 0,0, 10));
+        fb.getChildren().addAll(filterField);
+        pb.setTop(fb);
+   
+        table.setPrefWidth(440);
+        HBox hb = new HBox();
+        hb.setPadding(new Insets(10, 0,0, 10));
+        hb.getChildren().addAll(table);
+        pb.setLeft(hb);
         HBox vb = new HBox();
         vb.setPadding(new Insets(10, 0,0, 10));
         vb.getChildren().addAll(fzview);
