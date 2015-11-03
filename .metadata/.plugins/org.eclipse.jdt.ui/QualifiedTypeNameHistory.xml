@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="ticker.tickerThread"/>
-<fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
-<fullyQualifiedTypeName name="transfer.HTTPGetter"/>
-<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
 <fullyQualifiedTypeName name="util.ServerSetup"/>
 <fullyQualifiedTypeName name="java.net.InetAddress"/>
 <fullyQualifiedTypeName name="java.net.Inet6Address"/>
 <fullyQualifiedTypeName name="java.net.Inet4Address"/>
 <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
 <fullyQualifiedTypeName name="csvModel.CSVAutoscout"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="server.PrinterInterface"/>
 <fullyQualifiedTypeName name="server.Sysout"/>
 <fullyQualifiedTypeName name="csvModel.CSVAutoscout_o"/>
@@ -54,10 +48,16 @@
 <fullyQualifiedTypeName name="java.awt.TextField"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
 <fullyQualifiedTypeName name="javafx.collections.transformation.FilteredList"/>
-<fullyQualifiedTypeName name="model.Vehicle"/>
 <fullyQualifiedTypeName name="javafx.collections.transformation.SortedList"/>
-<fullyQualifiedTypeName name="mesh.Point"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="mesh.NameException"/>
+<fullyQualifiedTypeName name="mesh.Point"/>
 <fullyQualifiedTypeName name="mesh.PosException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="mesh.Vektor"/>
+<fullyQualifiedTypeName name="mesh.PointException"/>
+<fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
+<fullyQualifiedTypeName name="model.Vehicle"/>
+<fullyQualifiedTypeName name="fxTableView.EvaFormater"/>
 </qualifiedTypeNameHistroy>

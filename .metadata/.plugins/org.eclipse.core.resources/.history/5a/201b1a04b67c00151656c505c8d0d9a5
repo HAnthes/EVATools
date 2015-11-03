@@ -1,0 +1,20 @@
+package mesh;
+/**
+ * Ein Vektor verbindet genau zwei Punkte
+ * Von Punkt p1 nach p2 und ist somit gerichtet
+ * Ein Vektor hat ein bestimmtes Gewischt, ganzzahlig >0 nicht negativ.
+ * 
+ * über getter lassen sich die Punkte ermitteln. 
+ * @author anthes
+ *
+ */
+public class Vektor {
+	
+	private Point p1;
+	private Point p2;
+	private int weight;
+	
+	
+	
+	
+}

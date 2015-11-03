@@ -1,0 +1,16 @@
+package mesh;
+
+public class PointException extends Exception {
+ 
+	/**
+	 * Fehlerklasse leerer oder null Naame
+	 */
+	private static final long serialVersionUID = 1L;
+
+	PointException(String info){
+		
+		super("PointException : " + info==null || info.equals("")? "keine Fehler Info" : info);
+	}
+	
+  	
+}

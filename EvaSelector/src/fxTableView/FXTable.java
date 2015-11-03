@@ -3,6 +3,8 @@ package fxTableView;
 
 
 import javafx.application.Application;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
@@ -49,6 +51,7 @@ public class FXTable extends Application {
 	public void start(Stage stage) {
     	
     	TableView<Vehicle> table = new TableView<Vehicle>();
+    
     	final ObservableList<Vehicle> data= FXCollections.observableArrayList(EvaDB.getCars());
         
     	/*
@@ -79,8 +82,27 @@ public class FXTable extends Application {
         /*
          * Textfeld für das Anzeigen der FZG Ausstattung
          */
+        
+        Slider slider = new Slider();
+        slider.setMin(1);
+        slider.setMax(100);
+        slider.setValue(47);
+        slider.setShowTickLabels(true);
+        slider.setShowTickMarks(true);
+        slider.setMajorTickUnit(20);
+        slider.setBlockIncrement(19);
+        
         TextArea fzview = new TextArea();
-            
+    	EvaFormater ef = new EvaFormater(fzview,47);    
+    	
+        slider.valueProperty().addListener(new ChangeListener<Number>() {
+            public void changed(ObservableValue<? extends Number> ov,
+                Number old_val, Number new_val) {
+            		ef.setSize(new_val.intValue());
+            }
+        });
+        
+        
         
         table.setItems(data);
          
@@ -88,23 +110,14 @@ public class FXTable extends Application {
 
 			@Override
 			public void handle(MouseEvent arg0) {
-				fzview.clear();
-				fzview.appendText(table.getSelectionModel().getSelectedItem().toString());
+				ef.setCar(table.getSelectionModel().getSelectedItem());
 			}
         	
         });
          
         table.getColumns().addAll(orderNo,gwNo, text1, text2);
         
-        Slider slider = new Slider();
-        slider.setMin(0);
-        slider.setMax(100);
-        slider.setValue(40);
-        slider.setShowTickLabels(true);
-        slider.setShowTickMarks(true);
-        slider.setMajorTickUnit(50);
-        slider.setMinorTickCount(5);
-        slider.setBlockIncrement(20);
+        
         
         BorderPane pb = new BorderPane();
         pb.setPrefWidth(1000);

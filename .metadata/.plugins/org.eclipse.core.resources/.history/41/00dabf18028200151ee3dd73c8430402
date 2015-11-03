@@ -1,0 +1,46 @@
+package fxTableView;
+
+import model.Vehicle;
+import javafx.application.Platform;
+import javafx.scene.control.TextArea;
+/**
+ * Controller für Textviewausgabe
+ * @author anthes
+ * Test!
+ *
+ */
+public class EvaFormater {
+	
+	private TextArea view;
+	private String info="";
+	private Vehicle car;
+	private int size=5;
+	
+	public EvaFormater(TextArea view){
+		this.view = view;
+	}
+	
+	private void settext(){
+		Platform.runLater(new Runnable() {
+			@Override
+			public void run() {
+				view.clear();
+				view.appendText(info+size);
+			}
+		});
+	
+	}
+	
+	public void setSize(int x){
+		size=x;
+		System.out.println(size);
+		settext();
+	}
+	
+	
+	public void setCar(Vehicle car){
+		this.car = car;
+		info = car.toString();
+		settext();
+	}
+}
