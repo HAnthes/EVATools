@@ -1,0 +1,724 @@
+package csvModel;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.GregorianCalendar;
+import java.util.List;
+import java.util.regex.Pattern;
+
+import util.Setup;
+import model.Fextra;
+import model.Vehicle;
+/**
+ * CSV Klasse mit Autoscout anpassungnen 
+ * @author anthes
+ * CSV für Autoscoutschnittstelle - Basis Mobile CSV 
+ * 12.08.2015 Start
+ */
+public class CSVAutoscout implements ICSVString {
+	
+	private String csvLine = "";
+	private String a = "";  //Ohne " " 
+	private String e = ";";
+	private List<String> categorie = new ArrayList<String>();
+	private GregorianCalendar now = new GregorianCalendar();
+	
+	private String beschreibung = "";
+
+	public CSVAutoscout(Vehicle car) {
+
+		// Erstellen der Ausstattungsliste
+	
+		for (Fextra x : car.getFextras()) {
+			beschreibung += "*" + x.getDescr() + "\\\\";
+			/*
+			 * Die Categoriebezeichnerl leigen in feld Category als "CSV" String vor. 
+			 * Substring gibt Array .... mehrere Array werden mit der for schleife in die "Gesamt" Liste übertragen. 
+			 */
+			if (x.getCategory() != null) {
+				String[] help = x.getCategory().substring(2, x.getCategory().length()).split(Pattern.quote("|"));
+			
+				for (int a = 0; a < help.length; a++) {
+					categorie.add(help[a]);
+				}
+			}
+		}
+
+		
+		// CSV String aufbauen
+		 aa(car);
+		 ba(car);
+		 ca(car);
+		 da(car);
+		 ea(car);
+	}
+
+	private String kraftstoff(int evak) {
+
+		switch (evak) {
+		case -1:
+			return "Benzin";
+		case -2:
+			return "Diesel";
+		case -3:
+		case -9999:
+		case -20:
+		case -21:
+			return "Sonstige";
+		case -4:
+			return "Elektro";
+		case -5:
+		case -6:
+			return "Autogas (LPG)";
+		case -7:
+		case -9:
+			return "Erdgas (CNG)";
+		case -8:
+			return "Elektro/ Benzin";
+		case -10:
+			return "Elektro/ Diesel";
+		case -11:
+		case -13:
+		case -14:
+			return "Wasserstoff";
+		default:
+			return "Sonstige";
+		}
+
+	}
+
+	private String genColor(String color) {
+		if (color.equals("BEI"))
+			return "Beige";
+		if (color.equals("GEL"))
+			return "Gelb";
+		if (color.equals("BLA"))
+			return "Blau";
+		if (color.equals("BRA"))
+			return "Braun";
+		if (color.equals("BRO"))
+			return "Bronze";
+		if (color.equals("GOL"))
+			return "Gold";
+		if (color.equals("GRA"))
+			return "Grau";
+		if (color.equals("GRU"))
+			return "Grün";
+		if (color.equals("ORA"))
+			return "Orange";
+		if (color.equals("ROT"))
+			return "Rot";
+		if (color.equals("SCH"))
+			return "Schwarz";
+		if (color.equals("SIL"))
+			return "Silber";
+		if (color.equals("VIO"))
+			return "Violett";
+		if (color.equals("WEI"))
+			return "Weiß";
+		return "";
+	}
+
+	private boolean isin(String s) {
+		for (String x : categorie) {
+			if (x.equals(s))
+				return true;
+		}
+		return false;
+	}
+
+	private String fzKat(BigDecimal fzt) {
+
+		int type = fzt.intValue();
+		if (type == 1 || type == 8 || type == 9 || type == 10)
+			return "Sonstiges PKW";
+		if (type == 2)
+			return "Limousine";
+		if (type == 3)
+			return "Kombi";
+		if (type == 4)
+			return "Cabrio/Roadster";
+		if (type == 5 || type == 26)
+			return "Sportwagen/Coupe";
+		if (type == 6 || type == 19)
+			return "SUV/Geländewagen";
+		if (type == 27)
+			return "Kleinwagen";
+		if (type == 7)
+			return "Van/Kleinbus";
+		return "Sonstiges PKW";
+	}
+
+	private void addData(String d) {
+		csvLine += a + d + e;
+	}
+
+	private void aa(Vehicle car) {
+
+		//A AS KD NR
+		addData("5785");
+		
+		//B Angebotsnr. 
+		addData("" + car.getVehicleNo());
+		
+		//C BilderNamen
+		addData("" + car.getVehicleNo());
+	
+		//D Marke
+		addData(car.getText1().equals("VW NFZ") ? "VW" : car.getText1());
+		
+		//E Modell
+		addData(car.getText2());
+		
+		//F Version
+		String modell = car.getDesignDesc();
+		modell = modell.substring(0, modell.length() > 49 ? 47 : modell.length());
+		addData(modell);
+				
+		//G Kategorie Gebrauchtwagen oder Jahreswagen bis 24 = 700 Tage monate 1 besitzer
+		if (((now.getTimeInMillis() - car.getRegdate().getTime())/ 86400000) > 700 && car.getOwnerCount().equals(new BigDecimal(1))){
+		addData("Jahreswagen");
+		}else{
+			addData("Gebrauchtwagen");
+		}
+	
+		//H Getriebe
+		if (car.getAuto().toString().equals("0")) 
+			addData("Handschaltung");
+		if (car.getAuto().toString().equals("1"))
+			addData("Automatik");
+		if (car.getAuto().toString().equals("2"))
+			addData("Halbautomatik");
+			
+		//I Karosserieform
+		addData(fzKat(car.getVehType()));
+		
+		//J Außenfarbe Name
+		addData(car.getColorExtText());
+				
+		//K Metallic Boolean
+		addData(isin("Ap") || isin("AP") ? "1" : "0");
+		
+		//L Währung
+		addData("EUR");
+		
+		//M Kraftstoff ..... aktuell
+		addData(kraftstoff(car.getMotorId().intValue()));
+		
+		//N Erstzulassung
+		if (car.getRegdate() != null) {
+			SimpleDateFormat formatter = new SimpleDateFormat("MM.yyyy");
+			addData(formatter.format(car.getRegdate()));
+		} else {
+			addData("");
+		}
+		
+		//O KM STand
+		addData(car.getSpeedoKm().toString());
+		
+		//P Endpreis Brutto
+		if (car.getBusinessType().equals(new BigDecimal(1))){
+			//Diffbesteuert
+			addData(car.getPriceSell().setScale(0, RoundingMode.HALF_UP).toString());
+		} else{
+			//Regel
+			addData(car.getPriceSell().multiply(new BigDecimal(1.19)).setScale(0, RoundingMode.HALF_UP).toString());
+		}
+		
+		//Q Anzahl der Türne
+		addData(car.getDoors().toString());
+		
+		//R Sitze .... hammernet 
+		addData(car.getCarSeats().toString());
+		
+		//S Hubraum
+		addData(car.getCapacity().toString());
+		
+		
+		//T Leistung 
+		addData(car.getPower().toPlainString());
+		
+		//U Zylinder
+		addData("");
+		
+		//V Gänge
+		addData("");
+		
+		//W Reserviert
+		addData("");
+		
+		//X Leergewicht!
+		addData("");
+		
+		//Y HU
+		addData(car.getMainCheck() == null || car.getMainCheck().equals("NEU") ? "" : car.getMainCheck());
+		
+		//Z HSN
+		addData(car.getHsn());
+		
+		//AA TSN
+		addData(car.getTsn());
+				
+		//AB Reserviert
+		addData("");
+		
+		//AC Garantiedauer
+		addData("");
+				
+		//AD Mwst 1 auwseisbat 0 nicht
+		addData(car.getBusinessType().toString());
+		
+		//AE Unfallfahrzeug
+		addData("");
+		
+		//AF Klima
+		addData(isin("AC") ? "1" : "0");
+		
+		//AG Klimaautomatik
+		addData(isin("Cp") || isin("Ak") ? "1" : "0");
+
+		//AH Reserviert
+		addData("");
+		
+		//AI el. Fensterheber
+		addData(isin("AE") ? "1" : "0");
+		
+		//AJ Navigation
+		addData(isin("ah") || isin("AB") || isin("Cd") ? "1" : "0");
+		
+		//AK el Sitze
+		addData(isin("ag") || isin("A9") ? "1" : "0");
+		
+		//AL Schiebedach
+		addData(isin("Bk") || isin("AM") ? "1" : "0");
+		
+		//AM Sitzheizung
+		addData(isin("aq") || isin("ar") || isin("Au") ? "1" : "0");
+		
+		//AN Radio
+		addData(isin("aw") || isin("Ar") || isin("Cd") ? "1" : "0");
+				
+		//AO ABS
+		addData(isin("AA") ? "1" : "0");
+		
+		//AP Airbag
+		addData(isin("af") || isin("Ad") || isin("Af") ? "1" : "0");
+		
+		//AQ Beifahrerairbag
+		addData(isin("Bv") || isin("Ad") ? "1" : "0");
+		
+		//AR Seitenairbags
+		addData(isin("Ay") ? "1" : "0");
+		
+		//AS Xenon
+		addData(isin("AO") ? "1" : "0");
+		
+		//AT Zwentralverriegelung
+		addData(isin("AZ") || isin("AI") ? "1" : "0");
+		
+		//AU Alarmanlage nicht über EVA Auswertbar
+		addData("");
+		
+		//AV Wegfahrsperre
+		addData(isin("AW") ? "1" : "0");
+		
+		//AW Traktionskontrolle
+		addData(isin("Ao") ? "1" : "0");
+		
+		//AX Reserviert
+		addData("");
+		
+		//AY Reserviert
+		addData("");
+		
+		//AZ Alufelgen
+		addData(isin("Al") || isin("Yl") ? "1" : "0");
+	}
+		
+	private void ba(Vehicle car) {	
+		//BA Dachreling
+		addData(isin("AQ") ? "1" : "0");
+		
+		//BB Bordcomputer
+		addData(isin("Ab") ? "1" : "0");
+	
+		//BC Einpackhilfe
+		addData(isin("BF") || isin("A3") || isin("BK") ? "1" : "0");
+		
+		//BD Nebelscheinwerfewr
+		addData(isin("AN") ? "1" : "0");
+		
+		//BE Servo
+		addData(isin("Ax") ? "1" : "0");
+		
+		//BF Reserviert
+		addData("");
+	
+		//BG Beschreibung
+		addData(beschreibung + Setup.getAutoscoutCSVText());
+	
+		//BH Händlerpreis
+		addData("");
+		
+		//BI Reserviert
+		addData("");
+		
+		//BJ Nur für Händler
+		addData("0");
+		
+		//BK Artikel ID 
+		addData("");
+		
+		//BL Anhängerkupplung
+		addData(car.getTrailCoupl().toString());
+		
+		//BM ESP
+		addData(isin("Ao") ? "1" : "0");
+		
+		//BN Tempomat
+		addData(isin("AT") ? "1" : "0");
+				
+		//BO Behindertengerecht
+		addData("");
+		
+		//BP Dekrasiegel
+		addData("");
+		
+		//BQ Verbrauch innerorts
+		addData(car.getConsumpCity().toString());
+		
+		//BR Verbrauch auserorts
+		addData(car.getConsumpRoad().toString());
+		
+		//BS Verbrauch mix
+		addData(car.getConsumpMix().toString());
+		
+		//BT Co2 mix
+		addData(car.getEmissCo2Mix().toString());
+		
+		//BU Gebrauchtwagengarantie
+		addData("");
+		
+		//BV Herstellergarantiesiegel
+		addData("");
+		
+		//BW Fin Rate
+		addData("");
+		
+		//BX Fin Dauer
+		addData("");
+		
+		//BY Fin Anz
+		addData("");
+		
+		//BZ Fin Zins
+		addData("");		
+	}
+	private void ca(Vehicle car){
+		//CA Fin Art
+		addData("");
+		
+		//CB Fin Schlussrate
+		addData("");
+		
+		//CC Untertitel 
+		//todo 
+		addData("");
+		
+		//CD VIN
+		addData(car.getChassisno());
+		
+		//CE NAP
+		addData("");
+		
+		//CF BOVAG
+		addData("");
+		
+		//CG Standheizung
+		addData(isin("AS") ? "1" : "0");
+		
+		//CH DPF
+		addData(isin("Bz") ? "1" : "0");
+		
+		//CI Schadstoffklasse
+		switch (car.getEmisStandard().intValue()) {
+		case 1:
+			addData("EURO 1");
+			break;
+		case 2:
+			addData("EURO 2");
+			break;
+		case 3:
+			addData("EURO 3");
+			break;
+		case 4:
+			addData("EURO 3");
+			break;
+		case 5:
+			addData("EURO 4");
+			break;
+		case 6:
+			addData("EURO 4");
+			break;
+		case 7:
+			addData("EURO 5");
+			break;
+		case 8:
+			addData("EURO 6");
+			break;
+		default:
+			addData("");
+			break;
+		}
+		
+		//CJ Feinstaub
+		switch (car.getEmisBadge().intValue()) {
+		case 1:
+			addData("");
+			break;
+		case 2:
+			addData("Grün");
+			break;
+		case 3:
+			addData("Gelb");
+			break;
+		case 4:
+			addData("Rot");
+			break;
+		default:
+			addData("");
+			break;
+		}
+		
+		//CK Vorbesitzer
+		addData(car.getOwnerCount().toString());
+		
+		//CL LEistung
+		addData(car.getPower().toString());
+		
+		//CM
+		addData("");
+		
+		//CN Außengrundfarbe
+		addData(genColor(car.getColorExtGeneric()));
+		
+		//CO Bruttodarhlensbetrag
+		addData("");
+
+		//CP Bearbeitungsgebühren
+		addData("");
+		
+		//CQ Ratenabsicherung
+		addData("");
+		
+		//CR Bank
+		addData("");
+		
+		//CS Sollzinssatz pa
+		addData("");
+		
+		//CT Sollzinsart
+		addData("");
+		
+		//CU Reserviert
+		addData("");
+		
+		//CV Reserviert
+		addData("");
+		
+		//CW Reserviert
+		addData("");
+		
+		//CX Reserviert
+		addData("");
+		
+		//CY Reserviert
+		addData("");
+		
+		//CZ Reserviert
+		addData("");
+		
+	}
+	private void da(Vehicle car){
+		//DA - DH nur Motorräder
+		addData("");  //DA
+		addData("");  //DB
+		addData("");  //DC
+		addData("");  //DD
+		addData("");  //DE
+		addData("");  //DF
+		addData("");  //DG
+		addData("");  //DH
+		
+		//DI Scheckheftgep.
+		addData(car.getCareStatus().toString());
+		
+		//DJ CarPass
+		addData("0");
+		
+		//DK Produkt 1
+		addData("0");
+		
+		//DL Produkt 2
+		addData("0");
+		
+		//DM CarGarantie
+		addData("0");
+		
+		//DN EnVKV KRaftstoff
+		addData("");
+		
+		//DO EnVKV Energieträger
+		addData("");
+		
+		//DP Co2 Eff Klasse
+		addData("");
+		
+		//DQ Stromverbrauch
+		addData("");
+		
+		//DR Lieferfrist
+		addData("");
+		
+		//DS Lieferdatum
+		addData("");
+		
+		//DT Nichtraucher
+		addData("");
+		
+		//DU Taxi mietmwage
+		addData("");
+		
+		//DV Sportpaket
+		addData("");
+		
+		//DW startstop
+		addData(isin("BG") ? "1" : "0");
+		
+		//DX MF Lk
+		addData(isin("A7") ? "1" : "0");
+		
+		//DY Tagfahrlicht
+		addData(isin("Bx") ? "1" : "0");
+		
+		//DZ Sportfahrwerk
+		addData(isin("At") ? "1" : "0");
+	}
+	
+	
+	private void ea(Vehicle car){
+		//EA Sportsizte
+		addData(isin("AU") ? "1" : "0");
+		
+		//EB Kurvenlicht
+		addData(isin("BE") ? "1" : "0");
+				
+		//EC SKisack
+		addData(isin("A2") ? "1" : "0");
+		
+		//ED HU / AU neu
+		addData(car.getMainCheck()!=null && car.getMainCheck().equals("NEU") ? "1" :"0"); 
+	
+		//EE letzter We
+		addData("");
+		
+		//EF letzter Zahrimen
+		addData("");
+		
+		//EG Al Größe
+		addData("");
+		
+		
+		//EH Antriebsart
+		switch (car.getAllwheel().intValue()) {
+		case 1:
+			addData("allrad");
+			break;
+		case 2:
+			addData("front");
+			break;
+		case 3:
+			addData("heck");
+			break;
+		default:
+			addData("");
+			break;
+		}
+		
+		//EI Innennausstattung
+		String iType = "sonsitge";
+		if(isin("BV")) iType="alcantara";
+		if(isin("BT")) iType="velours";
+		if(isin("BS")) iType="stoff";
+		if(isin("BU")) iType="teilleder";
+		if(isin("BU")) iType="volleder";
+		addData(iType);
+	
+		//EJ Farbe Innenausstattung
+		addData("");
+		
+		//EK Verahdnlungsbasis
+		addData("0");
+		
+		//EL Video
+		addData("");
+		
+		//EM Panoramadach
+		addData(isin("C6") ? "1" : "0");
+		
+		//EN LAndesversion
+		addData("");
+		
+		//EO Exportpreis
+		addData("");
+		
+		//EP Elektrischerspiegel
+		addData(isin("AR") || isin("ab") ? "1" : "0");
+		
+		//EQ Bluethooth
+		addData(isin("bf") ? "1" : "0");
+		
+		//ER Head Up
+		addData(isin("BQ") ? "1" : "0");
+	
+		// ES Freisprech
+		addData("");
+		
+		//ET MP3
+		addData("");
+		
+		//EU ISOFix
+		addData(isin("BR")? "1" : "0");
+		
+		//EV Lichtsensor
+		addData(isin("Bk") ? "1" : "0");
+	
+		//EW Regensonsor
+		addData(isin("Bk") || isin("Bb") ? "1" : "0");
+	
+		//EX EPH Vonr
+		addData("");
+		
+		//EY EPH hiunten
+		addData("");
+		
+		//EZ Kamera
+		addData(isin("BK") ? "1" : "0");
+		
+		//Fa selbslenk
+		addData(isin("BF") ? "1" : "0");
+		
+		//FB CD
+		addData(isin("BM") || isin("aw") || isin("Cd") || isin("Aq")    ? "1" : "0");
+	
+		//FC  Nettodahrlehnsbetrag
+		addData("");
+	}
+	
+	public String getCSV() {
+		return csvLine;
+	}
+
+}

@@ -28,7 +28,7 @@ import model.VehiclesMm;
 
 public class MakePictures {
 	
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(MakePictures.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	private static  RemoteWriter rw = RemoteWriter.getInstance();	
 	private static Properties pLoad = new Properties();
 	private static Properties pSave = new Properties();

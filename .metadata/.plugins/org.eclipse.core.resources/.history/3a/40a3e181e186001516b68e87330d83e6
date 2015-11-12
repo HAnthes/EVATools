@@ -1,0 +1,12 @@
+package testGraph;
+
+import junit.framework.Test;
+
+public class TestSuite {
+public static void main(String[] a){
+	junit.textui.TestRunner.run(suite());
+}
+public static Test suite(){
+return null;
+}
+}

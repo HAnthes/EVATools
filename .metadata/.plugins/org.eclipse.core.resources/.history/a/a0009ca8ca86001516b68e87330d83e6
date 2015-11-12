@@ -1,0 +1,57 @@
+package graph;
+
+import java.util.Collection;
+
+public class Punkt implements InterfacePunkt {
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getPosX() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getPosY() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setPoxX(int newX) throws PunktException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setPoxY(int newY) throws PunktException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void addVerbindung(Verbindung<InterfacePunkt> verbindung)
+			throws VerbindungsException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void removeVerbindung(Verbindung<InterfacePunkt> verbindung)
+			throws VerbindungsException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Collection<Verbindung<InterfacePunkt>> getNachbarn() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

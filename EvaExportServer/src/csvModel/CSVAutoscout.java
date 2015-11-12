@@ -32,19 +32,24 @@ public class CSVAutoscout implements ICSVString {
 		// Erstellen der Ausstattungsliste
 	
 		for (Fextra x : car.getFextras()) {
+			/*
+			 *    * test \\ erzeugt Aufzählung 
+			 */
 			beschreibung += "*" + x.getDescr() + "\\\\";
-
+			
+			/*
+			 * Die Categoriebezeichnerl leigen in feld Category als "CSV" String vor. 
+			 * Substring gibt Array .... mehrere Array werden mit der for schleife in die "Gesamt" Liste übertragen. 
+			 */
 			if (x.getCategory() != null) {
-				String[] help = x.getCategory()
-						.substring(2, x.getCategory().length())
-						.split(Pattern.quote("|"));
+				String[] help = x.getCategory().substring(2, x.getCategory().length()).split(Pattern.quote("|"));
+			
 				for (int a = 0; a < help.length; a++) {
 					categorie.add(help[a]);
 				}
 			}
 		}
 
-		
 		
 		// CSV String aufbauen
 		 aa(car);

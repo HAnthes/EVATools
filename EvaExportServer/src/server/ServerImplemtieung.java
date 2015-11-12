@@ -18,7 +18,7 @@ import common.WorkerInterface;
 
 public class ServerImplemtieung implements WorkerInterface, PrinterInterface{
 	
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(ServerImplemtieung.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	
 	private List<CallbackInterface>listener = new ArrayList<CallbackInterface>();
 	

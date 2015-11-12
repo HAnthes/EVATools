@@ -17,11 +17,12 @@ public class EvaDB {
 	 * cars = Fahrzeuge inkl MM und Zubehör
 	 * evoOptions EVA Zubehörverwaltungs Tabellen.
 	 */
-	
+	private static java.util.logging.Logger jlogger  = java.util.logging.Logger.getLogger(Class.class.getName());
 	private static List<Vehicle> cars;
 	private static List<VehicleOptionCategory> evoOptions;
 	public static void getVehicles() {
 		
+		jlogger.info("Datenverbindung zur EVA DB geöffnet");
 		final String PU = "EVA_reader";
 		EntityManagerFactory ef = Persistence.createEntityManagerFactory(PU);
 		EntityManager em = ef.createEntityManager();
@@ -38,6 +39,7 @@ public class EvaDB {
 		
 		em.close();
 		ef.close();
+		jlogger.info("Datenverbindung zur EVE geschlossen");
 	}
 	
 	

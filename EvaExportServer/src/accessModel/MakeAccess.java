@@ -13,7 +13,7 @@ import controlller.EvaDB;
  *
  */
 public class MakeAccess {
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(MakeAccess.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	
 	private static RemoteWriter rw = RemoteWriter.getInstance();
 	

@@ -15,6 +15,7 @@ import model.Vehicle;
  * CSV Klasse mit Mobile anpassung und zusatzbuchungen.
  * @author anthes
  * Stand : 06.08.2015 - http://services.mobile.de/manual/changelog.html
+ * 12.11.2015 - Erweiterung Mobile API anpassung neue EVA Ausstattung.
  */
 public class CSVMobile implements ICSVString {
 	
@@ -201,10 +202,9 @@ public class CSVMobile implements ICSVString {
 		addData(fzKat(car.getVehType()));
 		// 3 D Marke
 		addData(car.getText1().equals("VW NFZ") ? "VW" : car.getText1());
-		// 4 E Modell
+		// 4 E Modell 48 zeichen
 		String modell = car.getText2() + " " + car.getDesignDesc();
-		modell = modell.substring(0,
-				modell.length() > 47 ? 47 : modell.length());
+		modell = modell.substring(0, modell.length() > 47 ? 47 : modell.length());
 		addData(modell);
 		// 5 F Leistung
 		addData(car.getPower().toPlainString());
@@ -249,7 +249,7 @@ public class CSVMobile implements ICSVString {
 		// 18 S Taxi
 		addData("0");
 		// 19 T Behindertengerecht
-		addData("0");
+		addData(isin("BH")?"1":"0");
 		// 20 U Jahreswagen unter 45o ab EZ!
 		addData(((now.getTimeInMillis() - car.getRegdate().getTime()) / 86400000) > 450 ? "0"
 				: "1");
@@ -267,8 +267,12 @@ public class CSVMobile implements ICSVString {
 		}
 		// 24 Y reserviert
 		addData("");
-		// 25 Z Bemerkung
+		// 25 Z Bemerkung Längenbeschränkung beachten 12.11.15 3000 Zeichen
+		if(beschreibung.length() + Setup.getMobileCSVText().length() <=3000){
 		addData(beschreibung + Setup.getMobileCSVText());
+		} else{
+			addData(beschreibung);
+		}
 
 	}
 
@@ -403,7 +407,7 @@ public class CSVMobile implements ICSVString {
 		addData(""); // 71
 		addData(""); // 72
 		// 73 BV Tv AK
-		addData(isin("ak") ? "1" : "0");
+		addData(isin("ak") || isin("Cc")? "1" : "0");
 		// 74 BW - 77 BZ Nutz
 		addData(""); // 74
 		addData(""); // 75
@@ -418,14 +422,14 @@ public class CSVMobile implements ICSVString {
 		addData(""); // 80
 		addData(""); // 81
 		addData(""); // 82
-		addData(""); // 83
+		addData(isin("Bw") ? "1":"0"); // 83
 		addData(""); // 84
 		addData(""); // 85
 		addData(""); // 86
 		addData(""); // 87
 		addData(""); // 88
 		addData(""); // 89
-		addData(""); // 90
+		addData(isin("Nq") ? "1":"0"); // 90
 		addData(""); // 91
 		addData(""); // 92
 		// 93 Händlerpreis
@@ -574,6 +578,7 @@ public class CSVMobile implements ICSVString {
 		if(isin("AY")) iType="4";
 		if(isin("Ad")) iType="3";
 		if(isin("Af")) iType="2";
+		if(isin("Bv")) iType="3";
 		addData(iType);
 		//	158	FC	Vorbesitzer
 		addData(car.getOwnerCount().toString());
@@ -662,7 +667,7 @@ public class CSVMobile implements ICSVString {
 		//	200 Einparkhilfe hinten
 		addData(isin("A3") ? "1" : "0");
 		//	201 Einparkhilfe Kamera
-		addData(isin("BK") ? "1" : "0");
+		addData(isin("BK") || isin("BI") ? "1" : "0");
 		//	202 Einparkhilfe selbslenk
 		addData(isin("BF") ? "1" : "0");
 		//	203	Topinserat

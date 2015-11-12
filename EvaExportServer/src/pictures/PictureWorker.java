@@ -23,7 +23,7 @@ import util.Setup;
  */
 public class PictureWorker implements Runnable {
 	private static RemoteWriter rw = RemoteWriter.getInstance();
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(PictureWorker.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	private PicBuildRuleSet rs;
 	private ArrayBlockingQueue<Vehicle> pipe;
 	private CountDownLatch sync;

@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
-<fullyQualifiedTypeName name="java.net.MalformedURLException"/>
-<fullyQualifiedTypeName name="java.net.URL"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-<fullyQualifiedTypeName name="java.io.DataOutputStream"/>
-<fullyQualifiedTypeName name="server.Server"/>
-<fullyQualifiedTypeName name="accessModel.DBevo_Category"/>
-<fullyQualifiedTypeName name="accessModel.MakeAccess"/>
-<fullyQualifiedTypeName name="csvModel.CSVUtil"/>
-<fullyQualifiedTypeName name="java.util.logging.Logger"/>
-<fullyQualifiedTypeName name="pictures.MakePictures"/>
-<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-<fullyQualifiedTypeName name="java.util.Properties"/>
-<fullyQualifiedTypeName name="util.Setup"/>
-<fullyQualifiedTypeName name="java.util.logging.Level"/>
-<fullyQualifiedTypeName name="java.util.logging.ConsoleHandler"/>
 <fullyQualifiedTypeName name="controller.EvaDB"/>
 <fullyQualifiedTypeName name="java.util.Observable"/>
 <fullyQualifiedTypeName name="javafx.collections.ObservableList"/>
@@ -43,8 +24,6 @@
 <fullyQualifiedTypeName name="mesh.NameException"/>
 <fullyQualifiedTypeName name="mesh.Point"/>
 <fullyQualifiedTypeName name="mesh.PosException"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="mesh.Vektor"/>
 <fullyQualifiedTypeName name="mesh.PointException"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
@@ -60,4 +39,25 @@
 <fullyQualifiedTypeName name="javafx.scene.layout.Pane"/>
 <fullyQualifiedTypeName name="javafx.scene.image.Image"/>
 <fullyQualifiedTypeName name="javafx.geometry.Pos"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="org.hamcrest.core.IsInstanceOf"/>
+<fullyQualifiedTypeName name="org.junit.rules.ExpectedException"/>
+<fullyQualifiedTypeName name="org.junit.Rule"/>
+<fullyQualifiedTypeName name="graph.PunktException"/>
+<fullyQualifiedTypeName name="junit.textui.TestRunner"/>
+<fullyQualifiedTypeName name="junit.framework.Test"/>
+<fullyQualifiedTypeName name="junit.framework.TestCase"/>
+<fullyQualifiedTypeName name="junit.framework.TestSuite"/>
+<fullyQualifiedTypeName name="testGraph.TestSuitePunkt"/>
+<fullyQualifiedTypeName name="testGraph.TestSuiteVerbindung"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="org.junit.runners.Suite.SuiteClasses"/>
+<fullyQualifiedTypeName name="testGraph.TestPunktSetPos"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="graph.VerbindungsException"/>
+<fullyQualifiedTypeName name="graph.Punkt"/>
+<fullyQualifiedTypeName name="graph.Verbindung"/>
+<fullyQualifiedTypeName name="graph.InterfacePunkt"/>
 </qualifiedTypeNameHistroy>

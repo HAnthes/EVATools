@@ -34,7 +34,7 @@ public class Setup {
 	
 	public static void readProp() throws IOException{
 		String evaprop = System.getProperty("user.dir") + "\\eva.properties";
-		//String evaprop = "D:/EVATransport/Server/eva.properties";
+	//String evaprop = "D:/EVATranport/Server/eva.properties";
 		Properties properties = new Properties();
 		BufferedInputStream stream = new BufferedInputStream(
 				new FileInputStream(evaprop));

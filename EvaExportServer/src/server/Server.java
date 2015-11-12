@@ -25,7 +25,7 @@ import util.ServerSetup;
 
 public class Server {
 	
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Server.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	
 	public static void main(String[] args) {
 			try{

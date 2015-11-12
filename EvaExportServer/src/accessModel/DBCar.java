@@ -19,7 +19,7 @@ public class DBCar {
  * Umstellung auf CSV angedacht. Import duch Classic ASP fehlt
  */
 	
-	private static java.util.logging.Logger jlogger  = java.util.logging.Logger.getLogger(DBCar.class.getName());
+	private static java.util.logging.Logger jlogger  = java.util.logging.Logger.getLogger(Class.class.getName());
 	
 	private static String qdelete = "delete * from holderbaum_web_v2";
 
@@ -192,11 +192,11 @@ public class DBCar {
 			pst.setString(57, car.getCo2eff());
 			
 			x = pst.executeUpdate();
-			jlogger.info("FEinfügen eines Datensatzes : " + car.getChassisno());
+			jlogger.info("Feinfügen eines Datensatzes : " + car.getChassisno());
 			
 			}
 		} catch (Exception e) {
-			jlogger.warning("Fehlert beim Einfügen eines Datensatzes : " + e);
+			jlogger.warning("Fehler beim Einfügen eines Datensatzes : " + e);
 			throw e;
 		}
 

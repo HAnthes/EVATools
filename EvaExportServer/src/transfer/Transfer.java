@@ -10,7 +10,7 @@ import util.Setup;
 
 public class Transfer {
 
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Transfer.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	private static RemoteWriter rw = RemoteWriter.getInstance();
 
 	public static void submit(String setup){

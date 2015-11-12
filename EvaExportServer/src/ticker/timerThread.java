@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 import common.WorkerInterface;
 
 public class timerThread  {
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(timerThread.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	private static ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
 	private static GregorianCalendar cal = new GregorianCalendar();
 	

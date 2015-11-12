@@ -1,0 +1,15 @@
+package graph;
+
+public interface InterfacePunkt {
+
+	public String getName();
+	public int getPosX();
+	public int getPosY();
+	
+	public void setPoxX(int newX) throws PunktException;
+	public void setPoxY(int newY) throws PunktException;
+	
+	public void addVerbindung(Verbindiung<InterfacePunkt> verbindung) throws VerbindungsException; 
+	
+	
+}

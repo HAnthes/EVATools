@@ -26,7 +26,7 @@ public class XMLReader {
 	/**
 	 * Lesen aller XML Dateien und erzeugen einer Parameterliste
 	 */
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(XMLReader.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	private static  RemoteWriter rw = RemoteWriter.getInstance();		
 
 	

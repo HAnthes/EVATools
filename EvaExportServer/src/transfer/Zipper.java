@@ -14,7 +14,7 @@ import java.util.zip.ZipOutputStream;
  *
  */
 public class Zipper {
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Zipper.class.getName()); 
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName()); 
 	
 	public static boolean createZipArchive(String srcFolder, String zip) {
 		int BUFFER = 2048;

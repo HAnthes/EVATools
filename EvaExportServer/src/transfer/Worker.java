@@ -15,7 +15,7 @@ import csvModel.CSVUtil;
 import csvModel.ICSVString;
 
 public class Worker implements Runnable {
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Worker.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 		
 	private static boolean work = false;
 

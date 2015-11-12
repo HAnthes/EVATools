@@ -1,0 +1,52 @@
+package testGraph;
+
+import static org.junit.Assert.*;
+import graph.Punkt;
+
+import org.junit.Test;
+
+public class TestSuitePunkt {
+
+	
+	
+	@Test
+	public void testGetName() {
+		Punkt p = new Punkt("Name",12,12);
+	}
+
+	@Test
+	public void testGetPosX() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetPosY() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetPoxX() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSetPoxY() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAddVerbindung() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testRemoveVerbindung() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetNachbarn() {
+		fail("Not yet implemented");
+	}
+
+}

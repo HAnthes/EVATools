@@ -21,7 +21,7 @@ import java.util.Properties;
  */
 public class ReadExportSetup {
 	
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(ReadExportSetup.class.getName()); 
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName()); 
 
 		public static List<TransferSetup> read (String dir){
 			List<TransferSetup> tansfersetup = new ArrayList<TransferSetup>();

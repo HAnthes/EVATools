@@ -15,12 +15,12 @@ import model.VehicleOptionCategory;
 
 public class DBevo_Category {
 
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(DBevo_Category.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	
 	private final static String qinsert = "INSERT INTO evo_category (code, description, type) VALUES ( ? ,?, ?)";
 
 	public static void insert(Connection cn, VehicleOptionCategory data) throws SQLException {
-		jlogger.info("Einfuügen DA");
+		jlogger.info("Einfügen Datensatz");
 		try (PreparedStatement pst = cn.prepareStatement(qinsert)) {
 
 			pst.setString(1, data.getCode());

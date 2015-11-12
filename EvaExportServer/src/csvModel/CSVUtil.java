@@ -11,7 +11,7 @@ import java.util.Collection;
  */
 public class CSVUtil {
 
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(CSVUtil.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	
 	public static void writeCSV(String dateiname, Collection<ICSVString> daten ){
 			

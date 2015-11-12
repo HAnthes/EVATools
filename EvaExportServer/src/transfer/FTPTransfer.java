@@ -23,7 +23,7 @@ import util.RemoteWriter;
  */
 
 public class FTPTransfer implements Runnable {
-	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(FTPTransfer.class.getName());
+	private static java.util.logging.Logger jlogger = java.util.logging.Logger.getLogger(Class.class.getName());
 	
 	private static RemoteWriter rw = RemoteWriter.getInstance();
 	

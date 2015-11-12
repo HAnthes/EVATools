@@ -1,0 +1,13 @@
+package graph;
+
+public class VerbindungsException extends Exception {
+	/**
+	 * Fehlerklasse Position
+	 */
+	private static final long serialVersionUID = 1L;
+
+	VerbindungsException(){
+		super("Postionen muss positiv sein!");
+	}
+
+}
