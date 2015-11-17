@@ -39,7 +39,7 @@ public class EvaDB {
 		
 		em.close();
 		ef.close();
-		jlogger.info("Datenverbindung zur EVE geschlossen");
+		jlogger.info("Datenverbindung zur EVA geschlossen");
 	}
 	
 	

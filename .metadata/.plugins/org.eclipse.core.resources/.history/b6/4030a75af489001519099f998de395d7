@@ -1,0 +1,12 @@
+package View;
+
+import DBControler.EVA_Read;
+
+public class simple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		EVA_Read.open();
+	}
+
+}

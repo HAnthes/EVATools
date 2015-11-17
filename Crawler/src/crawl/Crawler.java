@@ -16,7 +16,7 @@ public class Crawler {
     final String[] KEYWORDS = {"."};
     public static void main(String[] args) {
         long time = System.currentTimeMillis();
-        new Crawler().doIt("http://www.heise.de/");
+        new Crawler().doIt("http://www.mobile.de/");
         System.out.println(System.currentTimeMillis() - time);
     }
  

@@ -1,0 +1,166 @@
+package testGraph;
+
+import static org.junit.Assert.*;
+import graph.Punkt;
+import graph.PunktException;
+
+import org.junit.Test;
+
+public class Punkt_TestConstruktor  {
+
+	
+	/**
+	 * Positivtest Äquivalenzklassen 
+	 * PosX	:  > 0
+	 * PosY :  > 0
+	 * Name :  != "" || null
+	 * 
+	 * Testfälle 
+	 * 
+	 * Rand PosX 
+	 * 	Name :  Test
+	 * 	PosX :  1
+	 * 	PosY : 10
+	 * 
+	 * Rand PosY
+	 * 	Name : Test
+	 * 	PosX : 10
+	 *  PosY : 1
+	 *  
+	 * Allgemein
+	 * 	Name : Test
+	 * 	PosX : 23
+	 * 	PosY : 12
+	 * 
+	 * Test über die Getter.	
+	 * 
+	 */
+	@Test
+	public void ÄquivalenzklassenPositiv() {
+		try {
+			//Rand X
+			String name = "Test";
+			int x = 1;
+			int y = 10;
+			Punkt p = new Punkt(name,x,y);
+			assertEquals(p.getName(), name);
+			assertTrue(p.getPosX() == x);
+			assertTrue(p.getPosY() == y);
+			
+			p = null;
+			assertNull(p);
+			
+			//Rand Y
+			x = 10;
+			y = 1;
+			p = new Punkt(name,x,y);
+			assertEquals(p.getName(), name);
+			assertTrue(p.getPosX() == x);
+			assertTrue(p.getPosY() == y);
+			
+			p = null;
+			assertNull(p);
+			
+			//Allgemein
+			x = 23;
+			y = 12;
+			p = new Punkt(name,x,y);
+			assertEquals(p.getName(), name);
+			assertTrue(p.getPosX() == x);
+			assertTrue(p.getPosY() == y);
+			
+			
+		} catch (PunktException e) {
+			fail("Fehler");
+	 }
+	}
+	
+	
+	/**
+	 * Negativtest Äquivalenzklassen 
+	 * PosX	:  <= 0
+	 * PosY :  <= 0
+	 * Name :  == "" || null
+	 * 
+	 * Testfälle:
+	 * 
+	 * Rand PosX 
+	 * 	Name :  Test
+	 * 	PosX :  0
+	 * 	PosY : 10
+	 * 
+	 * Rand Posy 
+	 * 	Name :  Test
+	 * 	PosX : 10
+	 * 	PosY : 0
+	 *
+	 * Rand io Name (1)
+	 *  Name : ""
+	 *  PosX : 10
+	 *  PosY : 10
+	 *  
+	 *  Rand io Name (2)
+	 * 	Name : null
+	 *  PosX : 10
+	 *  PosY : 10
+	 *
+	 * Allgemein(1)
+	 *  Name : null
+	 *  PosX : -10
+	 *  PosY : -12
+	 
+	 * Allgemein(2)
+	 *  Name : ""
+	 *  PosX : -10
+	 *  PosY : -12
+	 *
+	 * Test auf Ausnahme und existenz des Objekts
+	 */
+	
+	@SuppressWarnings("unused")
+	@Test (expected=PunktException.class)
+	public void ErzeugenExceptionNameEmpty() throws Exception{
+		//Rand PosX 
+		String name = "Test";
+		int x = 0;
+		int y = 10;
+		Punkt p = new Punkt(name,x,y);
+		assertNull(p);
+		
+		
+		//Rand PosY
+		x = 10;
+		y = 0;
+		p = new Punkt(name,x,y);
+		assertNull(p);
+		
+		//Name ""
+		name = "";
+		x = 10;
+		y = 10;
+		p = new Punkt(name,x,y);
+		assertNull(p);
+		
+		//Name null
+		name = null;
+		x = 10;
+		y = 10;
+		p = new Punkt(name,x,y);
+		assertNull(p);
+		
+		//Allgemein 1
+		name = "";
+		x = -10;
+		y = -12;
+		p = new Punkt(name,x,y);
+		assertNull(p);
+		
+		//Name null
+		name = null;
+		x = -10;
+		y = -12;
+		p = new Punkt(name,x,y);
+		assertNull(p);			
+	}
+	
+}
