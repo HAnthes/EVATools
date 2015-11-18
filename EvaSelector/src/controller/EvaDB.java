@@ -8,20 +8,20 @@ import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
 import model.Vehicle;
-import model.VehicleOptionCategory;
 
 public class EvaDB {
+
 	/**
-	 * Auslesen der Daten aus der EVA Datebank
-	 * Query reengierung aus EVA
-	 * cars = Fahrzeuge inkl MM und Zubehör
-	 * evoOptions EVA Zubehörverwaltungs Tabellen.
-	 * Beep
+	 * Lesen der Daten aus der EVA DB 
+	 * @author anthes
+	 * @version 0.1
 	 */
 	
 	private static List<Vehicle> cars;
-	private static List<VehicleOptionCategory> evoOptions;
-	public static void getVehicles() {
+	/**
+	 * query nach etwas forschen. 
+	 */
+	private static void getVehicles() {
 		
 		final String PU = "EVA_reader";
 		EntityManagerFactory ef = Persistence.createEntityManagerFactory(PU);
@@ -32,11 +32,6 @@ public class EvaDB {
 		TypedQuery<Vehicle> car = em.createQuery(query, model.Vehicle.class);
 
 		cars = car.getResultList();
-		
-/*		TypedQuery<VehicleOptionCategory> evo = em.createNamedQuery("VehicleOptionCategory.findAll", model.VehicleOptionCategory.class);
-		
-		evoOptions =  evo.getResultList();
-	*/	
 		em.close();
 		ef.close();
 	}
@@ -44,13 +39,6 @@ public class EvaDB {
 	
 	public static List<Vehicle> getCars() {
 		getVehicles();
-		System.out.println(cars.size());
 		return cars;
 	}
-	
-	public static List<VehicleOptionCategory> getEvoOptions() {
-		return evoOptions;
-	}
-
-	
 }

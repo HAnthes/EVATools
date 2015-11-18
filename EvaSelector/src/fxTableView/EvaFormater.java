@@ -8,11 +8,11 @@ import model.Vehicle;
 import javafx.application.Platform;
 import javafx.scene.control.TextArea;
 /**
- * Controller für Textviewausgabe
+ * Controller für Textviewausgabe Spaltenbreite ist veränderbar
  * @author anthes
- * Test!
- *
+ * @version 0.1
  */
+
 public class EvaFormater {
 	
 	private TextArea view;
@@ -32,7 +32,6 @@ public class EvaFormater {
 				view.appendText(getstr(car, size));
 			}
 		});
-	
 	}
 	
 	public void setSize(int x){
@@ -45,7 +44,14 @@ public class EvaFormater {
 		settext();
 	}
 
-
+	/**
+	 * Passt die Spalten an, mehr Idee als real
+	 * @param Fahrzeug Pojo
+	 * @param Int Wert für die etwas Spaltenbreite
+	 * @return String einsprechend formatiert
+	 * Ein Spaltenbreite von 1 cuttet den Kopf.
+	 */
+	
 	private String getstr(Vehicle m, int size){
 		if(m==null) return "Kein Auto gewählt.";
 		String temp = "";

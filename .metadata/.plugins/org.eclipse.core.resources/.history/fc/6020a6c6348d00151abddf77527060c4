@@ -3,11 +3,7 @@ package DBControler;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-/**
- * Unfertiger Controller ... noch versuchsweise,
- * @author anthes
- * @version 0
- */
+
 public class EVA_Read {
 
 	public static Connection open(){

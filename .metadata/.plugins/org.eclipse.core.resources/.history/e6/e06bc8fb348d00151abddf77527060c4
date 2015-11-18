@@ -11,7 +11,6 @@ import DBControler.EVA_Read;
 /**
  * Generisches Lese der EVA vehicle Tabelle zum Datenabgleich
  * @author anthes
- * @version 0.1
  * 
  * Vehicle_no muss manuell gesucht werden.
  */
