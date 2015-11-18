@@ -1,0 +1,3 @@
+Setup Properties werden genutzt n uti.ServerSetup util.Setup
+eva.properties - Einstellungen zum Übertragen und für Pfade, wird für jeden Verarbeitung gelesen.
+server.proterties - Einstellungen für den Serve, wird nur beim Start gelesen. 

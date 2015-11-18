@@ -12,7 +12,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import util.RemoteWriter;
+import server.RemoteWriter;
 import util.ServerSetup;
 import util.Setup;
 import model.Vehicle;

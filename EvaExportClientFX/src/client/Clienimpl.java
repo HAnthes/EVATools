@@ -18,8 +18,6 @@ public class Clienimpl implements CallbackInterface, ObserverInterface {
 		}
 		}
 	
-	
-
 	@Override
 	public void register(RemoteListener rl) {
 		

@@ -4,7 +4,6 @@ import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
 import ticker.timerThread;
-import util.RemoteWriter;
 import util.ServerSetup;
 /**
  * RMI Server mit Callbackhook.

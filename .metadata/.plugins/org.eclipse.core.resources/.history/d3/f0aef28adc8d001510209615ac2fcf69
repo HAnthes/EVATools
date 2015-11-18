@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bilder>
+	<!--
+	Output : Pfad zum speichern der erzeugten Bilder, muss vorhanden sein.
+	-->
+	<output path="C:\EVATransport\Work\as24" />
+	
+	<!--
+	start Index .... z.b. Bild_2.jpg 
+	-->
+	<start id="2" />
+	
+	<!--
+	template kommt über das eigentliche Bild, background bestimmt die Ausgabegröße
+	-->
+	<template name="C:\EVATransport\PicTemplates\png\textunten.png" w="1024" h="768" x="0" y="0" />
+	<background w="1024" h="768" x="0" y="0" />
+	<!--
+	fill - Bilder die nach dem letzten Bild der Reihne noch angefügt werden. 
+	z.b. Auto hat Bild_1.jpg Bilder_2.jpg werden fill_1 und fill_2 noch als Bild_3 und _4 angehängt.
+	Diese Bilder müßen im korrekten Format vorliegen, werden nur kopiert.
+	max gibt eine grenze an ab der keine Bilder mehr angefügt werden. 
+	-->
+	<fill max="200">
+		<pic name="C:\EVATransport\PicTemplates\fill\fill_1.jpg" />
+		<pic name="C:\EVATransport\PicTemplates\fill\fill_2.jpg" />
+	</fill>
+</bilder>

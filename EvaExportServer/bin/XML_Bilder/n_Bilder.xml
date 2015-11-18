@@ -1,0 +1,31 @@
+<!--
+XML für die Verbeitung mehrer Bilder zu einer Kollage
+-->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<bilder>
+	<!--
+	Pfad zum speichern des Ausgabebildes
+	muss vorhanden sein!
+	-->
+	<output path="C:\EVATransport\Work\mobile" />
+	<!--
+	Index des Bildes 
+	-->
+	<start id="1" />
+	<!--
+	template wird über die Bilder gelegt.
+	Background ist immer das erste Bild der Fahrzeugserie
+	bild - werden über Hintetgrund und template gelegt
+	fallback ist ein Bild das kopiert wird  falls die Anzahl der Bilder des Fahrzeuges nicht aussreicht
+	die Koillage zu erstellen.
+	-->
+	<template name="C:\EVATransport\PicTemplates\png\mobile4seite.png" w="1024" h="768" x="0" y="0" />
+	<background w="1024" h="768" x="0" y="0" />
+	<collage fallback="C:\EVATransport\PicTemplates\fill\nopic.jpg">
+	<bild w="202" h="152" x="810" y="15" />
+	<bild w="202" h="152" x="810" y="182" />
+	<bild w="202" h="152" x="810" y="364" />
+	<bild w="202" h="152" x="810" y="546" />
+	</collage>
+</bilder>

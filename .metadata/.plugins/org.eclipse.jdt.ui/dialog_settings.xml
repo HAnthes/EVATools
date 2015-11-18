@@ -69,7 +69,7 @@
 	<section name="javadoc">
 		<item value="private" key="access"/>
 		<item value="false" key="noindex"/>
-		<item value="D:\JavaDevWP\EvaExportServer\javadoc.xml" key="antpath"/>
+		<item value="D:\JavaDevWP\EVA_Reference_Gen\javadoc.xml" key="antpath"/>
 		<item value="false" key="nodeprecatedlist"/>
 		<item value="true" key="use"/>
 		<item value="true" key="author"/>
@@ -83,12 +83,22 @@
 		<item value="true" key="splitindex"/>
 		<item value="true" key="fromStandard"/>
 		<item value="false" key="notree"/>
-		<item value="D:\JavaDevWP\EvaExportServer\doc" key="destdir"/>
+		<item value="D:\JavaDevWP\EVA_Reference_Gen\doc" key="destdir"/>
 		<item value="false" key="openinbrowser"/>
 		<section name="projects">
+			<section name="EVA_Reference_Gen">
+				<item value="D:\JavaDevWP\EVA_Reference_Gen\javadoc.xml" key="antpath"/>
+				<item value="D:\JavaDevWP\EVA_Reference_Gen\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
 			<section name="EvaExportServer">
 				<item value="D:\JavaDevWP\EvaExportServer\javadoc.xml" key="antpath"/>
 				<item value="D:\JavaDevWP\EvaExportServer\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="EvaSelector">
+				<item value="D:\JavaDevWP\EvaSelector\javadoc.xml" key="antpath"/>
+				<item value="D:\JavaDevWP\EvaSelector\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 			<section name="EvaExportClientFX">
@@ -96,19 +106,9 @@
 				<item value="D:\JavaDevWP\EvaExportClientFX\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
-			<section name="HttpGet">
-				<item value="D:\JavaDevWP\HttpGet\javadoc.xml" key="antpath"/>
-				<item value="D:\JavaDevWP\HttpGet\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="Ticker">
-				<item value="D:\JavaDevWP\Ticker\javadoc.xml" key="antpath"/>
-				<item value="D:\JavaDevWP\Ticker\doc" key="destdir"/>
-				<item value="" key="href"/>
-			</section>
-			<section name="Crawler">
-				<item value="D:\JavaDevWP\Crawler\javadoc.xml" key="antpath"/>
-				<item value="D:\JavaDevWP\Crawler\doc" key="destdir"/>
+			<section name="Dijkstra">
+				<item value="D:\JavaDevWP\Dijkstra\javadoc.xml" key="antpath"/>
+				<item value="D:\JavaDevWP\Dijkstra\doc" key="destdir"/>
 				<item value="" key="href"/>
 			</section>
 		</section>

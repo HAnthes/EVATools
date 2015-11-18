@@ -1,0 +1,22 @@
+#Leere Access Datenbank für www.holderbaum.de
+AccessFileOutPut:D:\\EVATranport\\Work\\Hoba\\db\\gw-temp.mdb
+#Leere Access Datenbank als Template
+AccessFileTemplate:D:\\EVATranport\\gwTempl.mdb
+#Datenbank für Bilderabgleich
+TouchLastExport:D:\\EVATranport\\last.txt
+#Ausgabedatei Mobile
+Mobile_CSV:D:\\EVATranport\\Work\\mobile\\244533.csv
+Mobile_Seite1Start:3
+Mobile_Seite1Ende:6
+Mobile_BlickfStart:7
+Mobile_BlickfEnde:10
+Mobile_CSV_Text:* Irrtum und Zwischenverkauf vorbehalten.\\\\* Gerne nehmen wir auch Ihr Altfahrzeug in Zahlung bzw.Anzahlung !\\\\* Finanzierung zu TOP-Konditionen über die VW Bank auch ohne Anzahlung möglich !\\\\* unsere Öffnungszeiten : Mo-Fr. von 9-18 Uhr, Sa. von 9-12 Uhr\\\\
+Autoscout_CSV_Text:-Irrtum und Zwischenverkauf vorbehalten.- -Gerne nehmen wir auch Ihr Altfahrzeug in Zahlung bzw.Anzahlung !- -Finanzierung zu TOP-Konditionen über die VW Bank auch ohne Anzahlung möglich !- -unsere Öffnungszeiten : Mo-Fr. von 9-18 Uhr, Sa. von 9-12 Uhr-
+#Ausgabedatei Autoscout
+CSV_AutoScout:D:\\EVATranport\\Work\\as24\\58878.csv
+#Bilderbasis der EVA
+EVAPic:Y:\\EVA\\DATA\\VehImageScans
+#Bilderbeschreibungen
+PicXML:D:\\EVATranport\\PicTemplates\\\desc
+#Übertragungssetups
+transfer:D:\\EVATranport\\Export

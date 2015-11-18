@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.List;
 
-import util.RemoteWriter;
+import server.RemoteWriter;
 import util.Setup;
 import controlller.EvaDB;
 /**

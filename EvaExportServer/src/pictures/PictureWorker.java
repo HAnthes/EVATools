@@ -13,7 +13,7 @@ import javax.imageio.ImageIO;
 
 import model.Vehicle;
 import model.VehiclesMm;
-import util.RemoteWriter;
+import server.RemoteWriter;
 import util.Setup;
 /**
  * Worker Classe für Bilderverarbeitungsthread

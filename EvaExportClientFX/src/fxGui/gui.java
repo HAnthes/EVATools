@@ -17,13 +17,15 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-
+/**
+ * JavaF Gui mit Startknopf und Textfeld für ein Loggin.
+ * @version 1
+ * 
+ */
 public class gui extends Application implements RemoteListener {
 	TextArea logView;
 
 	public static void main(String[] args) {
-		// Singelton init.
-		// Client client = Client.getInstance();
 		launch(args);
 	}
 
